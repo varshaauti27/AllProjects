@@ -1,0 +1,13 @@
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\SGBankProject\SGBank.UI\SGBank.UI\bin\Debug\SGBank.UI.exe.config
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\SGBankProject\SGBank.UI\SGBank.UI\bin\Debug\SGBank.UI.exe
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\SGBankProject\SGBank.UI\SGBank.UI\bin\Debug\SGBank.UI.pdb
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\SGBankProject\SGBank.UI\SGBank.UI\bin\Debug\SGBank.BLL.dll
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\SGBankProject\SGBank.UI\SGBank.UI\bin\Debug\SGBank.Model.dll
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\SGBankProject\SGBank.UI\SGBank.UI\bin\Debug\SGBank.BLL.pdb
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\SGBankProject\SGBank.UI\SGBank.UI\bin\Debug\SGBank.Model.pdb
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\SGBankProject\SGBank.UI\SGBank.UI\obj\Debug\SGBank.UI.csprojAssemblyReference.cache
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\SGBankProject\SGBank.UI\SGBank.UI\obj\Debug\SGBank.UI.csproj.CopyComplete
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\SGBankProject\SGBank.UI\SGBank.UI\obj\Debug\SGBank.UI.exe
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\SGBankProject\SGBank.UI\SGBank.UI\obj\Debug\SGBank.UI.pdb
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\SGBankProject\SGBank.UI\SGBank.UI\bin\Debug\SGBank.Data.dll
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\SGBankProject\SGBank.UI\SGBank.UI\bin\Debug\SGBank.Data.pdb

@@ -1,0 +1,5 @@
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\SGBankProject\SGBank.Model\bin\Debug\SGBank.Model.dll
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\SGBankProject\SGBank.Model\bin\Debug\SGBank.Model.pdb
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\SGBankProject\SGBank.Model\obj\Debug\SGBank.Model.csprojAssemblyReference.cache
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\SGBankProject\SGBank.Model\obj\Debug\SGBank.Model.dll
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\SGBankProject\SGBank.Model\obj\Debug\SGBank.Model.pdb

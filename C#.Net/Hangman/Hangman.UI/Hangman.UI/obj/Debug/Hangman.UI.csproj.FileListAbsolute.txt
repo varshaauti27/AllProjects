@@ -1,0 +1,9 @@
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\Hangman\Hangman.UI\Hangman.UI\obj\Debug\Hangman.UI.csprojAssemblyReference.cache
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\Hangman\Hangman.UI\Hangman.UI\bin\Debug\Hangman.UI.exe.config
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\Hangman\Hangman.UI\Hangman.UI\bin\Debug\Hangman.UI.exe
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\Hangman\Hangman.UI\Hangman.UI\bin\Debug\Hangman.UI.pdb
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\Hangman\Hangman.UI\Hangman.UI\bin\Debug\HangMan.BLL.dll
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\Hangman\Hangman.UI\Hangman.UI\bin\Debug\HangMan.BLL.pdb
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\Hangman\Hangman.UI\Hangman.UI\obj\Debug\Hangman.UI.csproj.CopyComplete
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\Hangman\Hangman.UI\Hangman.UI\obj\Debug\Hangman.UI.exe
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\Hangman\Hangman.UI\Hangman.UI\obj\Debug\Hangman.UI.pdb

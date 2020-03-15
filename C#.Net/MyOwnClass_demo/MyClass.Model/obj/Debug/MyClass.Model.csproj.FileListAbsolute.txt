@@ -1,0 +1,9 @@
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\MyClass.Model\bin\Debug\MyClass.Model.dll
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\MyClass.Model\bin\Debug\MyClass.Model.pdb
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\MyClass.Model\obj\Debug\MyClass.Model.dll
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\MyClass.Model\obj\Debug\MyClass.Model.pdb
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\MyClass.Model\obj\Debug\MyClass.Model.csprojAssemblyReference.cache
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\MyOwnClass_demo\MyClass.Model\bin\Debug\MyClass.Model.dll
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\MyOwnClass_demo\MyClass.Model\bin\Debug\MyClass.Model.pdb
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\MyOwnClass_demo\MyClass.Model\obj\Debug\MyClass.Model.dll
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\MyOwnClass_demo\MyClass.Model\obj\Debug\MyClass.Model.pdb

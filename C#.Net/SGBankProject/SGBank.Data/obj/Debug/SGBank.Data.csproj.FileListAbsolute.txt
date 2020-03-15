@@ -1,0 +1,16 @@
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\SGBank\SGBank.Data\bin\Debug\SGBank.Data.dll
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\SGBank\SGBank.Data\bin\Debug\SGBank.Data.pdb
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\SGBank\SGBank.Data\bin\Debug\SGBank.Models.dll
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\SGBank\SGBank.Data\bin\Debug\SGBank.Models.pdb
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\SGBank\SGBank.Data\obj\Debug\SGBank.Data.csprojAssemblyReference.cache
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\SGBank\SGBank.Data\obj\Debug\SGBank.Data.csproj.CopyComplete
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\SGBank\SGBank.Data\obj\Debug\SGBank.Data.dll
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\SGBank\SGBank.Data\obj\Debug\SGBank.Data.pdb
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\SGBankProject\SGBank.Data\bin\Debug\SGBank.Data.dll
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\SGBankProject\SGBank.Data\bin\Debug\SGBank.Data.pdb
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\SGBankProject\SGBank.Data\bin\Debug\SGBank.Models.dll
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\SGBankProject\SGBank.Data\bin\Debug\SGBank.Models.pdb
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\SGBankProject\SGBank.Data\obj\Debug\SGBank.Data.csprojAssemblyReference.cache
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\SGBankProject\SGBank.Data\obj\Debug\SGBank.Data.csproj.CopyComplete
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\SGBankProject\SGBank.Data\obj\Debug\SGBank.Data.dll
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\SGBankProject\SGBank.Data\obj\Debug\SGBank.Data.pdb

@@ -1,0 +1,13 @@
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\FlooringOrderingSys\FlooringOrderingSys.UI\FlooringOrderingSys.UI\bin\Debug\FlooringOrderingSys.UI.exe.config
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\FlooringOrderingSys\FlooringOrderingSys.UI\FlooringOrderingSys.UI\bin\Debug\FlooringOrderingSys.UI.exe
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\FlooringOrderingSys\FlooringOrderingSys.UI\FlooringOrderingSys.UI\bin\Debug\FlooringOrderingSys.UI.pdb
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\FlooringOrderingSys\FlooringOrderingSys.UI\FlooringOrderingSys.UI\obj\Debug\FlooringOrderingSys.UI.csprojAssemblyReference.cache
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\FlooringOrderingSys\FlooringOrderingSys.UI\FlooringOrderingSys.UI\obj\Debug\FlooringOrderingSys.UI.exe
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\FlooringOrderingSys\FlooringOrderingSys.UI\FlooringOrderingSys.UI\obj\Debug\FlooringOrderingSys.UI.pdb
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\FlooringOrderingSys\FlooringOrderingSys.UI\FlooringOrderingSys.UI\bin\Debug\FlooringOrderingSys.BLL.dll
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\FlooringOrderingSys\FlooringOrderingSys.UI\FlooringOrderingSys.UI\bin\Debug\FlooringOrderingSys.Models.dll
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\FlooringOrderingSys\FlooringOrderingSys.UI\FlooringOrderingSys.UI\bin\Debug\FlooringOrderingSys.Data.dll
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\FlooringOrderingSys\FlooringOrderingSys.UI\FlooringOrderingSys.UI\bin\Debug\FlooringOrderingSys.BLL.pdb
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\FlooringOrderingSys\FlooringOrderingSys.UI\FlooringOrderingSys.UI\bin\Debug\FlooringOrderingSys.Models.pdb
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\FlooringOrderingSys\FlooringOrderingSys.UI\FlooringOrderingSys.UI\bin\Debug\FlooringOrderingSys.Data.pdb
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\FlooringOrderingSys\FlooringOrderingSys.UI\FlooringOrderingSys.UI\obj\Debug\FlooringOrderingSys.UI.csproj.CopyComplete

@@ -1,0 +1,5 @@
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\FlooringOrderingSys\FlooringOrderingSys.Models\bin\Debug\FlooringOrderingSys.Models.dll
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\FlooringOrderingSys\FlooringOrderingSys.Models\bin\Debug\FlooringOrderingSys.Models.pdb
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\FlooringOrderingSys\FlooringOrderingSys.Models\obj\Debug\FlooringOrderingSys.Models.dll
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\FlooringOrderingSys\FlooringOrderingSys.Models\obj\Debug\FlooringOrderingSys.Models.pdb
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\FlooringOrderingSys\FlooringOrderingSys.Models\obj\Debug\FlooringOrderingSys.Models.csprojAssemblyReference.cache

@@ -1,0 +1,3 @@
+ SplashScreen splashScreen = new SplashScreen("SplashScreenImage.bmp");
+            splashScreen.Show(true);
+

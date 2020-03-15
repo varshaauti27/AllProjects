@@ -1,0 +1,5 @@
+OrderNumber|CustomerName|State|TaxRate|ProductType|Area|CostPerSquareFoot|LaborCostPerSquareFoot|MaterialCost|LaborCost|Tax|Total
+1|Tom|PA|6.75|Tile|210|3.50|4.15|735.00|871.50|108.44|1714.94
+2|Kim|MI|5.75|Carpet|110|2.25|2.10|247.50|231.00|27.51|506.01
+3|Desai|PA|6.75|Wood|200|5.15|4.75|1030.00|950.00|133.65|2113.65
+4|Tanvi|HI|100.0|Marbel|120|2|25|240|3000|3240.0|6480.0

@@ -1,0 +1,6 @@
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\BasicProgConceptsAsnmt\bin\Debug\BasicProgConceptsAsnmt.exe.config
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\BasicProgConceptsAsnmt\bin\Debug\BasicProgConceptsAsnmt.exe
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\BasicProgConceptsAsnmt\bin\Debug\BasicProgConceptsAsnmt.pdb
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\BasicProgConceptsAsnmt\obj\Debug\BasicProgConceptsAsnmt.csprojAssemblyReference.cache
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\BasicProgConceptsAsnmt\obj\Debug\BasicProgConceptsAsnmt.exe
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\BasicProgConceptsAsnmt\obj\Debug\BasicProgConceptsAsnmt.pdb

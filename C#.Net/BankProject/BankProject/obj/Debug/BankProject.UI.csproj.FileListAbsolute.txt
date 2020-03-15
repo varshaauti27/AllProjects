@@ -1,0 +1,13 @@
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\BankProject\BankProject\obj\Debug\BankProject.UI.csprojAssemblyReference.cache
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\BankProject\BankProject\bin\Debug\BankProject.exe.config
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\BankProject\BankProject\bin\Debug\BankProject.exe
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\BankProject\BankProject\bin\Debug\BankProject.pdb
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\BankProject\BankProject\bin\Debug\BankProject.Logic.dll
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\BankProject\BankProject\bin\Debug\BankProject.MLL.dll
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\BankProject\BankProject\bin\Debug\BankProject.Data.dll
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\BankProject\BankProject\bin\Debug\BankProject.Logic.pdb
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\BankProject\BankProject\bin\Debug\BankProject.MLL.pdb
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\BankProject\BankProject\bin\Debug\BankProject.Data.pdb
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\BankProject\BankProject\obj\Debug\BankProject.UI.csproj.CopyComplete
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\BankProject\BankProject\obj\Debug\BankProject.exe
+\\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\BankProject\BankProject\obj\Debug\BankProject.pdb

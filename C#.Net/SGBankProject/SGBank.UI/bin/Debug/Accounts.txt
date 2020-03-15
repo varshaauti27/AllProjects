@@ -1,0 +1,4 @@
+FirstName,LastName,Major,GPA
+11111,Free Customer,100,F
+22222,Basic Customer,540,B
+33333,Premium Customer,1020,P
