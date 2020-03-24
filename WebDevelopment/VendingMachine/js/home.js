@@ -125,6 +125,7 @@ function makePurchase()
 		$('#messages-text').val("Please add amount");
 		return;
 	}
+	
 	var URL ='http://tsg-vending.herokuapp.com/money/' + $('#total-dollar-In-text').val() + '/item/' + $('#item-purchase-text').val();
 	
 	$.ajax({

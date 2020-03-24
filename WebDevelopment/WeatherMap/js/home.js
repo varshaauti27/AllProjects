@@ -1,7 +1,5 @@
 $(document).ready(function(){
 	
-	
-	
 });
 
 function isNumberKey(evt)
@@ -17,7 +15,7 @@ function getWeatherData()
 {	
     var haveValidationErrors = checkAndDisplayValidationErrors($('#weather-form').find('input'));
 
-	// if we have errors, bail out by returning false
+	// If we have errors, bail out by returning false
 	if (haveValidationErrors) {
 		return false;
 	}
@@ -25,8 +23,8 @@ function getWeatherData()
 	var keyCode = 'e8d259e4ccc929b7f1cbd8a8fdaea1f4';
 	var zipCode = $('#txtZipCode').val();
 	var units = $('#units-select').val();
-	var URL ='http://api.openweathermap.org/data/2.5/weather?zip=' + zipCode + '&units='+units+',us&appid=' + keyCode;
-	alert("URL : "+URL);
+	var URL ='http://api.openweathermap.org/data/2.5/weather?zip=' + zipCode + '&units=' + units + ',us&appid=' + keyCode;
+	alert("URL : " + URL);
 	
 	 $.ajax ({
         type: 'GET',
@@ -42,8 +40,8 @@ function getWeatherData()
                 .text('Error calling web service.  Please try again later.')); 
 	
 				var responseText = (xhr.responseText);
-				alert("Error type : "+errorType);
-				alert("Exception : "+exception +"\nException Type :"+responseText.ExceptionType+"\nResponse Message: "+responseText.Message +"\nRespose StackTrace:"+responseText.StackTrace);
+				alert("Error type : " + errorType);
+				alert("Exception : " + exception + "\nException Type :" + responseText.ExceptionType + "\nResponse Message: " + responseText.Message + "\nRespose StackTrace:" + responseText.StackTrace);
            }
     }); 
 }
@@ -60,7 +58,7 @@ function checkAndDisplayValidationErrors(input) {
         // Use the HTML5 validation API to find the validation errors
         if(!this.validity.valid)
         {
-            var errorField = $('label[for='+this.id+']').text();
+            var errorField = $('label[for=' + this.id + ']').text();
             errorMessages.push(errorField + ' ' + this.validationMessage);
         }
     });
