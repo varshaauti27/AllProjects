@@ -1,0 +1,59 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.validation-summary-errors {
+    color: red;
+    font-weight: bold;
+}
+
+#displayPanel,#editPanel,#createPanel{
+  box-shadow: 10px 10px 5px grey;
+  background: linear-gradient(to bottom, #C6AD61 0%, #ffffff 100%);
+}
+
+#display-back-button,#edit-cancel-button,#edit-button,#create-cancel-button,#create-dvd-button
+{
+	margin: 20px 10px;
+}
+
+label
+{
+	font-weight: bold;
+}
+
+#display-title,#display-releaseYear,#display-director,#display-rating,#display-notes
+{
+	font-weight : normal;
+}
+
+.table-striped > tbody > tr:nth-child(even) > td,
+.table-striped > tbody > tr:nth-child(even) > th {
+    background-image: linear-gradient(to bottom,lightgray 0%, #ffffff 100%)
+}
+
+.table-hover > tbody > tr:hover {
+	background-image: linear-gradient(to bottom,lightblue 0%, #ffffff 100%)
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-image: linear-gradient(to bottom,#C6AD61 0%, #ffffff 100%); // Choose your own color here
+ }
+ 
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+

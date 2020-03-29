@@ -1,0 +1,625 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0381D476-FB45-4D72-B4DF-068A0C902655}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Bank</RootNamespace>
+    <AssemblyName>Bank</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\BankDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BankDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BankDataSet2.cs">
+      <DependentUpon>BankDataSet2.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\BankDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BankDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CrystalReport1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\CustReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DeleteClass.cs" />
+    <Compile Include="Forms\EditClass.cs" />
+    <Compile Include="Forms\FDReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FDReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCalender.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCalender.Designer.cs">
+      <DependentUpon>frmCalender.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmChequeBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmChequeBook.Designer.cs">
+      <DependentUpon>frmChequeBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmCreateLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCreateLogin.Designer.cs">
+      <DependentUpon>frmCreateLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmCreatePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCreatePassword.Designer.cs">
+      <DependentUpon>frmCreatePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmCustomerReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCustomerReport.Designer.cs">
+      <DependentUpon>frmCustomerReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmDepositeWithdrawal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDepositeWithdrawal.Designer.cs">
+      <DependentUpon>frmDepositeWithdrawal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmEmployeeDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmEmployeeDetails.Designer.cs">
+      <DependentUpon>frmEmployeeDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmEmployeeReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmEmployeeReport.Designer.cs">
+      <DependentUpon>frmEmployeeReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmFDCalculator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmFDCalculator.Designer.cs">
+      <DependentUpon>frmFDCalculator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmFDReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmFDReport.Designer.cs">
+      <DependentUpon>frmFDReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmFixedDeposite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmFixedDeposite.Designer.cs">
+      <DependentUpon>frmFixedDeposite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmHomeLoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmHomeLoan.Designer.cs">
+      <DependentUpon>frmHomeLoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmInterestRate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmInterestRate.Designer.cs">
+      <DependentUpon>frmInterestRate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmLoanReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmLoanReport.Designer.cs">
+      <DependentUpon>frmLoanReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmLoanTransaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmLoanTransaction.Designer.cs">
+      <DependentUpon>frmLoanTransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmLock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmLock.Designer.cs">
+      <DependentUpon>frmLock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmLockerDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmLockerDetails.Designer.cs">
+      <DependentUpon>frmLockerDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmMDIMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmMDIMain.Designer.cs">
+      <DependentUpon>frmMDIMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmOpenAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmOpenAccount.Designer.cs">
+      <DependentUpon>frmOpenAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmOpenLocker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmOpenLocker.Designer.cs">
+      <DependentUpon>frmOpenLocker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPassbookPrinting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPassbookPrinting.Designer.cs">
+      <DependentUpon>frmPassbookPrinting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmStudentLoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmStudentLoan.Designer.cs">
+      <DependentUpon>frmStudentLoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmStudentLoanReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmStudentLoanReport.Designer.cs">
+      <DependentUpon>frmStudentLoanReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmTransactionReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmTransactionReport.Designer.cs">
+      <DependentUpon>frmTransactionReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmUnlock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmUnlock.Designer.cs">
+      <DependentUpon>frmUnlock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmVehicalLoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmVehicalLoan.Designer.cs">
+      <DependentUpon>frmVehicalLoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmVerification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmVerification.Designer.cs">
+      <DependentUpon>frmVerification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmViewLoanTransaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmViewLoanTransaction.Designer.cs">
+      <DependentUpon>frmViewLoanTransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmWithdraw.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmWithdraw.Designer.cs">
+      <DependentUpon>frmWithdraw.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\InsertClass.cs" />
+    <Compile Include="Forms\LoanReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LoanReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PassbookPrinting.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PassbookPrinting.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\StudentLoanReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StudentLoanReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\TransactionReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TransactionReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ViewClass.cs" />
+    <Compile Include="Forms\WithdrawReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WithdrawReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CustReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CustReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FDReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>FDReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCalender.resx">
+      <DependentUpon>frmCalender.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmChequeBook.resx">
+      <DependentUpon>frmChequeBook.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCreateLogin.resx">
+      <DependentUpon>frmCreateLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCreatePassword.resx">
+      <DependentUpon>frmCreatePassword.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCustomerReport.resx">
+      <DependentUpon>frmCustomerReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmDepositeWithdrawal.resx">
+      <DependentUpon>frmDepositeWithdrawal.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmEmployeeDetails.resx">
+      <DependentUpon>frmEmployeeDetails.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmEmployeeReport.resx">
+      <DependentUpon>frmEmployeeReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmFDCalculator.resx">
+      <DependentUpon>frmFDCalculator.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmFDReport.resx">
+      <DependentUpon>frmFDReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmFixedDeposite.resx">
+      <DependentUpon>frmFixedDeposite.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmHomeLoan.resx">
+      <DependentUpon>frmHomeLoan.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmInterestRate.resx">
+      <DependentUpon>frmInterestRate.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmLoanReport.resx">
+      <DependentUpon>frmLoanReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmLoanTransaction.resx">
+      <DependentUpon>frmLoanTransaction.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmLock.resx">
+      <DependentUpon>frmLock.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmLockerDetails.resx">
+      <DependentUpon>frmLockerDetails.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMDIMain.resx">
+      <DependentUpon>frmMDIMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmOpenAccount.resx">
+      <DependentUpon>frmOpenAccount.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmOpenLocker.resx">
+      <DependentUpon>frmOpenLocker.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPassbookPrinting.resx">
+      <DependentUpon>frmPassbookPrinting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmStudentLoan.resx">
+      <DependentUpon>frmStudentLoan.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmStudentLoanReport.resx">
+      <DependentUpon>frmStudentLoanReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmTransactionReport.resx">
+      <DependentUpon>frmTransactionReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmUnlock.resx">
+      <DependentUpon>frmUnlock.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmVehicalLoan.resx">
+      <DependentUpon>frmVehicalLoan.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmVerification.resx">
+      <DependentUpon>frmVerification.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmViewLoanTransaction.resx">
+      <DependentUpon>frmViewLoanTransaction.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmWithdraw.resx">
+      <DependentUpon>frmWithdraw.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LoanReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LoanReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PassbookPrinting.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PassbookPrinting.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StudentLoanReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>StudentLoanReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TransactionReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TransactionReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WithdrawReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>WithdrawReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_dll_Ico51_ico_Ico1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Unlock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setupapi_dll_Ico41_ico_Ico1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\explorer_exe_Ico62_ico_Ico1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\555.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\269.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dollar_icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\29.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BOOK_ICON3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Deposit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loan_icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CALC.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fixed_Deposit_Icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home-loan-icon.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\automobile_loan-icon.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\youth_icon_education.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dialog-ok.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keymgr_dll_Ico6_ico_Ico1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\n3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\n5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\n2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\n1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\n4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow%2520Sync.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left_right.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loan_icon1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Forms\BankDataSet1.xsc">
+      <DependentUpon>BankDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Forms\BankDataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BankDataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Forms\BankDataSet1.xss">
+      <DependentUpon>BankDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Forms\BankDataSet2.xsc">
+      <DependentUpon>BankDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Forms\BankDataSet2.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BankDataSet2.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Forms\BankDataSet2.xss">
+      <DependentUpon>BankDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\Lock1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cubicü.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

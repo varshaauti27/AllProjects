@@ -1,0 +1,257 @@
+C:\Documents and Settings\ASHISH\My Documents\Visual Studio 2008\Projects\Bank\Bank\bin\Debug\Bank.exe
+C:\Documents and Settings\ASHISH\My Documents\Visual Studio 2008\Projects\Bank\Bank\bin\Debug\Bank.pdb
+C:\Documents and Settings\ASHISH\My Documents\Visual Studio 2008\Projects\Bank\Bank\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\ASHISH\My Documents\Visual Studio 2008\Projects\Bank\Bank\obj\Debug\Bank.frmLogin.resources
+C:\Documents and Settings\ASHISH\My Documents\Visual Studio 2008\Projects\Bank\Bank\obj\Debug\Bank.Properties.Resources.resources
+C:\Documents and Settings\ASHISH\My Documents\Visual Studio 2008\Projects\Bank\Bank\obj\Debug\Bank.csproj.GenerateResource.Cache
+C:\Documents and Settings\ASHISH\My Documents\Visual Studio 2008\Projects\Bank\Bank\obj\Debug\Bank.exe
+C:\Documents and Settings\ASHISH\My Documents\Visual Studio 2008\Projects\Bank\Bank\obj\Debug\Bank.pdb
+C:\Documents and Settings\ASHISH\My Documents\Visual Studio 2008\Projects\Bank\Bank\obj\Debug\Bank.Forms.frmCreatePassword.resources
+C:\Documents and Settings\~ V ~\My Documents\Downloads\Bank\Bank\Bank\obj\Debug\Bank.exe
+C:\Documents and Settings\~ V ~\My Documents\Downloads\Bank\Bank\Bank\obj\Debug\Bank.pdb
+D:\Bank\Bank\Bank\obj\Debug\Bank.exe
+D:\Bank\Bank\Bank\obj\Debug\Bank.pdb
+D:\Bank\Bank\Bank\obj\Debug\ResolveAssemblyReference.cache
+D:\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmChequeBook.resources
+D:\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmCreatePassword.resources
+D:\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmDepositeWithdrawal.resources
+D:\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmEmployeeDetails.resources
+D:\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmFixedDeposite.resources
+D:\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmInterestRate.resources
+D:\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmLoanTransaction.resources
+D:\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmLockerDetails.resources
+D:\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmMDIMain.resources
+D:\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmOpenLocker.resources
+D:\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmViewLoanTransaction.resources
+D:\Bank\Bank\Bank\obj\Debug\Bank.Properties.Resources.resources
+D:\Bank\Bank\Bank\obj\Debug\Bank.csproj.GenerateResource.Cache
+D:\Bank\Bank\Bank\obj\Debug\Bank.Forms.Login.resources
+D:\Bank\Bank\Bank\bin\Debug\Bank.exe
+D:\Bank\Bank\Bank\bin\Debug\Bank.pdb
+D:\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmVerification.resources
+D:\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmStudentLoan.resources
+D:\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmVehicalLoan.resources
+D:\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmFDCalculator.resources
+D:\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmHomeLoan.resources
+D:\Bank\Bank\Bank\Bank\obj\Debug\Bank.exe
+D:\Bank\Bank\Bank\Bank\obj\Debug\Bank.pdb
+D:\Bank\Bank\Bank\Bank\bin\Debug\Bank.exe
+D:\Bank\Bank\Bank\Bank\bin\Debug\Bank.pdb
+D:\Bank\Bank\Bank\Bank\obj\Debug\ResolveAssemblyReference.cache
+D:\Bank\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmChequeBook.resources
+D:\Bank\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmCreatePassword.resources
+D:\Bank\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmDepositeWithdrawal.resources
+D:\Bank\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmEmployeeDetails.resources
+D:\Bank\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmFDCalculator.resources
+D:\Bank\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmFixedDeposite.resources
+D:\Bank\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmHomeLoan.resources
+D:\Bank\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmInterestRate.resources
+D:\Bank\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmLoanTransaction.resources
+D:\Bank\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmLockerDetails.resources
+D:\Bank\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmMDIMain.resources
+D:\Bank\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmOpenLocker.resources
+D:\Bank\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmStudentLoan.resources
+D:\Bank\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmVehicalLoan.resources
+D:\Bank\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmVerification.resources
+D:\Bank\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmViewLoanTransaction.resources
+D:\Bank\Bank\Bank\Bank\obj\Debug\Bank.Forms.Login.resources
+D:\Bank\Bank\Bank\Bank\obj\Debug\Bank.Properties.Resources.resources
+D:\Bank\Bank\Bank\Bank\obj\Debug\Bank.csproj.GenerateResource.Cache
+D:\Bank\Bank\obj\Debug\Bank.exe
+D:\Bank\Bank\obj\Debug\Bank.pdb
+D:\Bank\Bank\bin\Debug\Bank.exe
+D:\Bank\Bank\bin\Debug\Bank.pdb
+D:\Bank\Bank\obj\Debug\ResolveAssemblyReference.cache
+D:\Bank\Bank\obj\Debug\Bank.Forms.frmChequeBook.resources
+D:\Bank\Bank\obj\Debug\Bank.Forms.frmCreatePassword.resources
+D:\Bank\Bank\obj\Debug\Bank.Forms.frmDepositeWithdrawal.resources
+D:\Bank\Bank\obj\Debug\Bank.Forms.frmEmployeeDetails.resources
+D:\Bank\Bank\obj\Debug\Bank.Forms.frmFDCalculator.resources
+D:\Bank\Bank\obj\Debug\Bank.Forms.frmFixedDeposite.resources
+D:\Bank\Bank\obj\Debug\Bank.Forms.frmHomeLoan.resources
+D:\Bank\Bank\obj\Debug\Bank.Forms.frmInterestRate.resources
+D:\Bank\Bank\obj\Debug\Bank.Forms.frmLoanTransaction.resources
+D:\Bank\Bank\obj\Debug\Bank.Forms.frmLockerDetails.resources
+D:\Bank\Bank\obj\Debug\Bank.Forms.frmMDIMain.resources
+D:\Bank\Bank\obj\Debug\Bank.Forms.frmOpenLocker.resources
+D:\Bank\Bank\obj\Debug\Bank.Forms.frmStudentLoan.resources
+D:\Bank\Bank\obj\Debug\Bank.Forms.frmVehicalLoan.resources
+D:\Bank\Bank\obj\Debug\Bank.Forms.frmVerification.resources
+D:\Bank\Bank\obj\Debug\Bank.Forms.frmViewLoanTransaction.resources
+D:\Bank\Bank\obj\Debug\Bank.Forms.Login.resources
+D:\Bank\Bank\obj\Debug\Bank.Properties.Resources.resources
+D:\Bank\Bank\obj\Debug\Bank.csproj.GenerateResource.Cache
+D:\Bank\Bank\obj\Debug\Bank.Forms.frmOpenAccount.resources
+C:\Documents and Settings\~ V ~\My Documents\Downloads\Bank\Bank\Bank\bin\Debug\Bank.exe
+C:\Documents and Settings\~ V ~\My Documents\Downloads\Bank\Bank\Bank\bin\Debug\Bank.pdb
+C:\Documents and Settings\~ V ~\My Documents\Downloads\Bank\Bank\Bank\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\~ V ~\My Documents\Downloads\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmChequeBook.resources
+C:\Documents and Settings\~ V ~\My Documents\Downloads\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmCreatePassword.resources
+C:\Documents and Settings\~ V ~\My Documents\Downloads\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmDepositeWithdrawal.resources
+C:\Documents and Settings\~ V ~\My Documents\Downloads\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmEmployeeDetails.resources
+C:\Documents and Settings\~ V ~\My Documents\Downloads\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmFDCalculator.resources
+C:\Documents and Settings\~ V ~\My Documents\Downloads\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmFixedDeposite.resources
+C:\Documents and Settings\~ V ~\My Documents\Downloads\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmHomeLoan.resources
+C:\Documents and Settings\~ V ~\My Documents\Downloads\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmInterestRate.resources
+C:\Documents and Settings\~ V ~\My Documents\Downloads\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmLoanTransaction.resources
+C:\Documents and Settings\~ V ~\My Documents\Downloads\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmLockerDetails.resources
+C:\Documents and Settings\~ V ~\My Documents\Downloads\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmMDIMain.resources
+C:\Documents and Settings\~ V ~\My Documents\Downloads\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmOpenAccount.resources
+C:\Documents and Settings\~ V ~\My Documents\Downloads\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmOpenLocker.resources
+C:\Documents and Settings\~ V ~\My Documents\Downloads\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmStudentLoan.resources
+C:\Documents and Settings\~ V ~\My Documents\Downloads\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmVehicalLoan.resources
+C:\Documents and Settings\~ V ~\My Documents\Downloads\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmVerification.resources
+C:\Documents and Settings\~ V ~\My Documents\Downloads\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmViewLoanTransaction.resources
+C:\Documents and Settings\~ V ~\My Documents\Downloads\Bank\Bank\Bank\obj\Debug\Bank.Forms.Login.resources
+C:\Documents and Settings\~ V ~\My Documents\Downloads\Bank\Bank\Bank\obj\Debug\Bank.Properties.Resources.resources
+C:\Documents and Settings\~ V ~\My Documents\Downloads\Bank\Bank\Bank\obj\Debug\Bank.csproj.GenerateResource.Cache
+C:\Documents and Settings\~ V ~\My Documents\Downloads\Bank\Bank\Bank\bin\Debug\Bank.exe.config
+C:\Documents and Settings\~ V ~\My Documents\Downloads\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmLock.resources
+C:\Documents and Settings\~ V ~\My Documents\Downloads\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmUnlock.resources
+D:\My_Project\Bank\Bank\Bank\bin\Debug\Bank.exe.config
+D:\My_Project\Bank\Bank\Bank\obj\Debug\Bank.exe
+D:\My_Project\Bank\Bank\Bank\obj\Debug\Bank.pdb
+D:\My_Project\Bank\Bank\Bank\bin\Debug\Bank.exe
+D:\My_Project\Bank\Bank\Bank\bin\Debug\Bank.pdb
+D:\My_Project\Bank\Bank\Bank\obj\Debug\ResolveAssemblyReference.cache
+D:\My_Project\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmChequeBook.resources
+D:\My_Project\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmCreatePassword.resources
+D:\My_Project\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmDepositeWithdrawal.resources
+D:\My_Project\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmEmployeeDetails.resources
+D:\My_Project\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmFDCalculator.resources
+D:\My_Project\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmFixedDeposite.resources
+D:\My_Project\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmHomeLoan.resources
+D:\My_Project\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmInterestRate.resources
+D:\My_Project\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmLoanTransaction.resources
+D:\My_Project\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmLock.resources
+D:\My_Project\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmLockerDetails.resources
+D:\My_Project\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmMDIMain.resources
+D:\My_Project\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmOpenAccount.resources
+D:\My_Project\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmOpenLocker.resources
+D:\My_Project\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmStudentLoan.resources
+D:\My_Project\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmUnlock.resources
+D:\My_Project\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmVehicalLoan.resources
+D:\My_Project\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmVerification.resources
+D:\My_Project\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmViewLoanTransaction.resources
+D:\My_Project\Bank\Bank\Bank\obj\Debug\Bank.Forms.Login.resources
+D:\My_Project\Bank\Bank\Bank\obj\Debug\Bank.Properties.Resources.resources
+D:\My_Project\Bank\Bank\Bank\obj\Debug\Bank.csproj.GenerateResource.Cache
+D:\My_Project\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmCreateLogin.resources
+D:\My_Project\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmEmployeeReport.resources
+I:\Bank\Bank\Bank\bin\Debug\Bank.exe.config
+I:\Bank\Bank\Bank\obj\Debug\Bank.exe
+I:\Bank\Bank\Bank\obj\Debug\Bank.pdb
+D:\VARSHA\Bank\Bank\Bank\bin\Debug\Bank.exe.config
+D:\VARSHA\Bank\Bank\Bank\obj\Debug\Bank.exe
+D:\VARSHA\Bank\Bank\Bank\obj\Debug\Bank.pdb
+D:\VARSHA\Bank\Bank\Bank\bin\Debug\Bank.exe
+D:\VARSHA\Bank\Bank\Bank\bin\Debug\Bank.pdb
+D:\VARSHA\Bank\Bank\Bank\obj\Debug\ResolveAssemblyReference.cache
+D:\VARSHA\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmChequeBook.resources
+D:\VARSHA\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmCreateLogin.resources
+D:\VARSHA\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmCreatePassword.resources
+D:\VARSHA\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmDepositeWithdrawal.resources
+D:\VARSHA\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmEmployeeDetails.resources
+D:\VARSHA\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmEmployeeReport.resources
+D:\VARSHA\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmFDCalculator.resources
+D:\VARSHA\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmFixedDeposite.resources
+D:\VARSHA\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmHomeLoan.resources
+D:\VARSHA\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmInterestRate.resources
+D:\VARSHA\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmLoanTransaction.resources
+D:\VARSHA\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmLock.resources
+D:\VARSHA\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmLockerDetails.resources
+D:\VARSHA\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmMDIMain.resources
+D:\VARSHA\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmOpenAccount.resources
+D:\VARSHA\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmOpenLocker.resources
+D:\VARSHA\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmStudentLoan.resources
+D:\VARSHA\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmUnlock.resources
+D:\VARSHA\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmVehicalLoan.resources
+D:\VARSHA\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmVerification.resources
+D:\VARSHA\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmViewLoanTransaction.resources
+D:\VARSHA\Bank\Bank\Bank\obj\Debug\Bank.Forms.Login.resources
+D:\VARSHA\Bank\Bank\Bank\obj\Debug\Bank.Properties.Resources.resources
+D:\VARSHA\Bank\Bank\Bank\obj\Debug\Bank.csproj.GenerateResource.Cache
+D:\VARSHA\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmCustomerReport.resources
+D:\VARSHA\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmWithdraw.resources
+D:\VARSHA\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmFDReport.resources
+D:\VARSHA\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmLoanReport.resources
+D:\VARSHA\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmPassbookPrinting.resources
+D:\VARSHA\Bank\Bank\Bank\obj\Debug\Bank.frmAbout.resources
+D:\VARSHA\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmTransactionReport.resources
+D:\VARSHA\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmCalender.resources
+D:\VARSHA\Bank\Bank\Bank\obj\Debug\Bank.Forms.frmStudentLoanReport.resources
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\bin\Debug\Bank.exe.config
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\bin\Debug\Bank.exe
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\bin\Debug\Bank.pdb
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\bin\Debug\CrystalDecisions.Enterprise.Framework.dll
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\bin\Debug\CrystalDecisions.Enterprise.InfoStore.dll
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\bin\Debug\CrystalDecisions.ReportSource.dll
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\bin\Debug\CrystalDecisions.Shared.dll
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\bin\Debug\CrystalDecisions.Windows.Forms.dll
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\bin\Debug\log4net.dll
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\bin\Debug\System.Web.Services.dll
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\bin\Debug\stdole.dll
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\bin\Debug\log4net.xml
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\bin\Debug\sk\CrystalDecisions.Shared.resources.dll
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\bin\Debug\pl\CrystalDecisions.Shared.resources.dll
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\bin\Debug\sv\CrystalDecisions.Shared.resources.dll
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\bin\Debug\da\CrystalDecisions.Shared.resources.dll
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\bin\Debug\ja\CrystalDecisions.Shared.resources.dll
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\bin\Debug\it\CrystalDecisions.Shared.resources.dll
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\bin\Debug\cs\CrystalDecisions.Shared.resources.dll
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\bin\Debug\ru\CrystalDecisions.Shared.resources.dll
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\bin\Debug\pt\CrystalDecisions.Shared.resources.dll
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\bin\Debug\nb-NO\CrystalDecisions.Shared.resources.dll
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\bin\Debug\hu\CrystalDecisions.Shared.resources.dll
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\bin\Debug\nl\CrystalDecisions.Shared.resources.dll
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\bin\Debug\de\CrystalDecisions.Shared.resources.dll
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\bin\Debug\zh-CHT\CrystalDecisions.Shared.resources.dll
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\bin\Debug\zh-CHS\CrystalDecisions.Shared.resources.dll
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\bin\Debug\ko\CrystalDecisions.Shared.resources.dll
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\bin\Debug\fi\CrystalDecisions.Shared.resources.dll
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\bin\Debug\fr\CrystalDecisions.Shared.resources.dll
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\bin\Debug\es\CrystalDecisions.Shared.resources.dll
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\bin\Debug\en\CrystalDecisions.Shared.resources.dll
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\bin\Debug\th\CrystalDecisions.Shared.resources.dll
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\bin\Debug\tr\CrystalDecisions.Shared.resources.dll
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\obj\Debug\Bank.csprojAssemblyReference.cache
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\obj\Debug\Bank.Forms.frmCalender.resources
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\obj\Debug\Bank.Forms.frmChequeBook.resources
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\obj\Debug\Bank.Forms.frmCreateLogin.resources
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\obj\Debug\Bank.Forms.frmCreatePassword.resources
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\obj\Debug\Bank.Forms.frmCustomerReport.resources
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\obj\Debug\Bank.Forms.frmDepositeWithdrawal.resources
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\obj\Debug\Bank.Forms.frmEmployeeDetails.resources
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\obj\Debug\Bank.Forms.frmEmployeeReport.resources
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\obj\Debug\Bank.Forms.frmFDCalculator.resources
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\obj\Debug\Bank.Forms.frmFDReport.resources
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\obj\Debug\Bank.Forms.frmFixedDeposite.resources
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\obj\Debug\Bank.Forms.frmHomeLoan.resources
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\obj\Debug\Bank.Forms.frmInterestRate.resources
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\obj\Debug\Bank.Forms.frmLoanReport.resources
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\obj\Debug\Bank.Forms.frmLoanTransaction.resources
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\obj\Debug\Bank.Forms.frmLock.resources
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\obj\Debug\Bank.Forms.frmLockerDetails.resources
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\obj\Debug\Bank.Forms.frmMDIMain.resources
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\obj\Debug\Bank.Forms.frmOpenAccount.resources
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\obj\Debug\Bank.Forms.frmOpenLocker.resources
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\obj\Debug\Bank.Forms.frmPassbookPrinting.resources
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\obj\Debug\Bank.Forms.frmStudentLoan.resources
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\obj\Debug\Bank.Forms.frmStudentLoanReport.resources
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\obj\Debug\Bank.Forms.frmTransactionReport.resources
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\obj\Debug\Bank.Forms.frmUnlock.resources
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\obj\Debug\Bank.Forms.frmVehicalLoan.resources
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\obj\Debug\Bank.Forms.frmVerification.resources
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\obj\Debug\Bank.Forms.frmViewLoanTransaction.resources
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\obj\Debug\Bank.Forms.frmWithdraw.resources
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\obj\Debug\Bank.Forms.Login.resources
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\obj\Debug\Bank.frmAbout.resources
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\obj\Debug\Bank.Properties.Resources.resources
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\obj\Debug\Bank.csproj.GenerateResource.cache
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\obj\Debug\Bank.csproj.CopyComplete
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\obj\Debug\Bank.exe
+\\Mac\Home\Documents\GitHub\AllProjects\BankProject(TYBSc)\Bank\Bank\obj\Debug\Bank.pdb

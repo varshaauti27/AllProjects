@@ -1,4 +1,12 @@
+var changeReturnDict = {
+	Quarters : 0,
+	Dimes : 0,
+	Nickels : 0,
+	Pennies : 0
+};
+
 $(document).ready(function(){
+	
 	loadAllItems();
 });
 
@@ -56,6 +64,18 @@ function clearDisplayItemsDiv()
 function addItemToBusinessForm(itemId)
 {
 	$('#item-purchase-text').val(itemId);
+	$('#messages-text').val('');
+	$('#change-return-text').val('');
+	alert(changeReturnDict['Quarters'] * 0.25);
+	var total = (changeReturnDict['Quarters'] * 0.25) +(changeReturnDict['Dimes'] * 0.10) + (changeReturnDict['Nickels'] * 0.05) + (changeReturnDict['Pennies'] * 0.01);
+	if(total > 0)
+	{
+		$('#total-dollar-In-text').val(total);
+	}
+	changeReturnDict['Quarters'] = 0;
+	changeReturnDict['Dimes'] = 0;
+	changeReturnDict['Nickels'] = 0;
+	changeReturnDict['Pennies'] = 0;
 }
 
 function addDollarInTotal()
@@ -111,6 +131,10 @@ function changeReturnClick()
 	$('#messages-text').val('');
 	$('#total-dollar-In-text').val('');
 	$('#change-return-text').val('');
+	changeReturnDict['Quarters'] = 0;
+	changeReturnDict['Dimes'] = 0;
+	changeReturnDict['Nickels'] = 0;
+	changeReturnDict['Pennies'] = 0;
 }
 
 function makePurchase()
@@ -140,7 +164,13 @@ function makePurchase()
 			$('#errorMessages').empty();
 			var changeReturn="";
 			var isPreChangeValueFound = false;
-			if(data.quarters!=0)
+			
+			changeReturnDict['Quarters'] = changeReturnDict['Quarters'] + data.quarters;
+			changeReturnDict['Dimes']= changeReturnDict['Dimes'] + data.dimes;
+			changeReturnDict['Nickels'] = changeReturnDict['Nickels'] + data.nickels;
+			changeReturnClick['Pennies'] = changeReturnDict['Pennies'] + data.pennies;
+			
+			/*if(data.quarters!=0)
 			{
 				changeReturn = data.quarters + ' quarters';
 				isPreChangeValueFound = true;
@@ -169,9 +199,11 @@ function makePurchase()
 					changeReturn+=", ";
 				}
 				changeReturn+=data.pennies + ' pennies';
-			}
+			}*/
+			
 			$('#messages-text').val("Thank You !!!!!");
-			$('#change-return-text').val(changeReturn);
+			//$('#change-return-text').val(changeReturn);
+			SetChangeReturn();
 			
 			$('#total-dollar-In-text').val('');
 			$('#item-purchase-text').val('');
@@ -193,4 +225,36 @@ function makePurchase()
 			loadAllItems();
 		}
 	});
+}
+
+function SetChangeReturn()
+{
+	var output ='';
+	var flag = false;
+	if(changeReturnDict['Quarters'] != 0)
+	{
+		output += changeReturnDict['Quarters'] + ' quarters';
+		flag = true;
+	}
+	if(changeReturnDict['Dimes'] != 0)
+	{
+		if(flag)
+			output+=', '
+		output += changeReturnDict['Dimes'] + ' Dimes';
+		flag = true;
+	}
+	if(changeReturnDict['Nickels'] != 0)
+	{
+		if(flag)
+			output+=', '
+		output += changeReturnDict['Nickels'] + ' Nickels';
+		flag = true;
+	}
+	if(changeReturnDict['Pennies'] != 0)
+	{
+		if(flag)
+			output+=', '
+		output += changeReturnDict['Pennies'] + ' Pennies';
+	}
+	$('#change-return-text').val(output);
 }
