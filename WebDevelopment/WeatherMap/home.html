@@ -1,75 +1,145 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
-	<head>
-		<title> </title>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-		<!-- Required Meta Tags -->
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		
-		<!-- Bootstrap core CSS -->
-        <link href="css/bootstrap.css"
-              rel="stylesheet">
-			  
-		 <link href="css/bootstrap.min.css"
-              rel="stylesheet">		
-	</head>
-	<body>
-		<h1 align="center">
-			Weather Application
-		</h1>
-		<hr/>
-		
-		<div id="container">
-			<ul class="list-group" id="errorMessages"></ul>
-			<div class="row" id="mainContent">
-				<div id="weatherFormDiv" align="center">
-					<form class="form-horizontal" role="form" id="weather-form">
-						<div class="form-group">
-							<label for="txtZipCode" class="col-md-1 control-label">ZipCode:</label>
+<head>
+    <title>Weather Map</title>
 
-							<div class="col-md-2">
-								<input type="text"
-									   class="form-control"
-									   id="txtZipCode"
-									   onkeypress="return isNumberKey(event)"
-									   maxlength="5"
-									   placeholder="Enter Zipcode(digits only)" required/>
-							</div>
-						</div>
-						<div class="form-group">
-							<label for="units-select" class="col-md-1 control-label">Units:</label>
-							
-							<div class="col-md-1">
-								<select class="btn btn-outline-primary form-control selectpicker"  id="units-select"  required>	
-									<option value="imperical" default>Imperial</option>
-									<option value="metrics">Metric</option>
-								</select>
-							</div>
-						</div>
-						<div class="form-group">
-							<div class="col-md-offset-3 col-md-3">
-								<button type="button"
-										id="getWeather-button"
-										class="btn btn-default"
-										onclick="getWeatherData();">
-									Get Weather
-								</button>
-							</div>
-						</div>
-					</form>
-				</div>
-				<hr/>
-				<div>
-				
-				</div>
-			</div>
-		</div>
-	</body>
-	
-	<!-- #5: Placed at the end of the document so the pages load faster -->
+    <!-- Required Meta Tags -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" />
+    <script src="js/modernizr-2.6.2.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div class="row col-md-12">
+            <div class="col-md-12 col-md-10 text-center">
+                <h2>Weather Application</h2>
+                <hr/>
+            </div>
+        </div>
+
+        <div class="row col-md-12">
+            <div class="col-md-12 col-md-10 d-flex justify-content-center">
+                <ul class="list-group col-md-10 " id="errorMessages"></ul>
+            </div>
+            <form class="form-horizontal col-md-12" role="form" id="weather-form">
+                <div class="form-group row col-md-12 d-flex justify-content-center">
+                    <label for="txtZipCode" class="col-md-2 control-label text-right">ZipCode : </label>
+                    <input type="text"
+                           class="col-md-2 form-control"
+                           id="txtZipCode"
+                           onkeypress="return isNumberKey(event)"
+                           maxlength="5"
+                           placeholder="Zipcode(Digits only)" required />
+
+                    <label for="units-select" class="col-md-1 control-label  text-right">Units : </label>
+
+                    <select class="col-md-1 custom-select form-control selectpicker" id="units-select" required>
+                        <option value="Imperial" default>Imperial</option>
+                        <option value="Metric">Metric</option>
+                    </select>
+
+                    <button type="button"
+                            id="getWeather-button"
+                            class="col-md-2 form-control btn btn-primary"
+                            onclick="getWeatherData();">
+                        Get Weather
+                    </button>
+                </div>
+            </form>
+            <div class="col-md-12 col-md-10 text-center">
+                <hr />
+            </div>
+        </div>
+
+        <div class="row col-md-12" id="currentConditionDiv" style="display: none">
+            <div class="row col-md-12" id="currentConditionLeft">
+                <div class="col-md-12 col-md-10">
+                    <h3>Current Conditions in <span id="currentCity"></span></h3>
+                </div>
+            </div>
+            <div class="row col-md-12" id="currentConditionRight">
+                <div class="col-md-3 text-center">                 
+                    <img id="currentConditionIcon" src="" class="img-left" alt="weather icon" width="50" height="50" />
+                    <span id="currentConditionMain"></span>:
+                    <span id="currentConditionDescription"></span>
+                </div>
+                <!--
+                <div class="card col-md-3">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="CALC.ico" class="card-img" alt="..." height="50" width="50">
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card-body">
+
+                                <p class="card-text">Haze</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                -->
+
+                <div class="col-md-3">
+                    <!--<div class="card-body">
+                        <p class="card-text">Temperature</p>
+                        <p class="card-text">Humidity.</p>
+                        <p class="card-text">Wind</p>
+                    </div>-->
+                    <p>Temperature: <span id="currentTemperature"></span></p>
+                    <p>Humidity: <span id="currentHumidity"></span></p>
+                    <p>Wind: <span id="currentWind"></span></p>
+                </div>
+            </div>
+            <div class="col-md-12 col-md-10 text-center">
+                <hr />
+            </div>
+        </div>
+
+        <div class="row col-md-12" id="fiveDayForecastDiv" style="display: none">
+            <div class="row col-md-12">
+                <div class="col-md-12 col-md-10" >
+                    <h3>Five Day Forecast</h3>
+                </div>
+            </div>
+            <div class="row col-md-12">
+                <div class="col-md-2">
+                    <p class="text-center">Pringles</p>
+                    <p class="text-center">$1.85</p>
+                    <p class="text-center">Quantity left : 10</p>
+                </div>
+                <div class="col-md-2">
+                    <p class="text-center">Pringles</p>
+                    <p class="text-center">$1.85</p>
+                    <p class="text-center">Quantity left : 10</p>
+                </div>
+                <div class="col-md-2">
+                    block3
+                </div>
+                <div class="col-md-2">
+                    block4
+                </div>
+                <div class="col-md-2">
+                    block5
+                </div>
+
+            </div>
+            <div class="col-md-12 col-md-10 text-center">
+                <hr />
+            </div>
+        </div>
+    </div>
+
+    <!-- #5: Placed at the end of the document so the pages load faster -->
     <script src="js/jquery-2.2.4.min.js"></script>
     <script src="js/bootstrap.js"></script>
-		
     <script src="js/home.js"></script>
+    <link href="css/Site.css" rel="stylesheet" type="text/css" />
+</body>
 </html>

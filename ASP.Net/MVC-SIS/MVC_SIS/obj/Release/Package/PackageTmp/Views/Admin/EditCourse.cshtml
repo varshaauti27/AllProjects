@@ -1,0 +1,27 @@
+﻿@model Exercises.Models.Data.Course
+
+@{
+    ViewBag.Title = "Admin-Edit Course";
+}
+
+<div class="row">
+    <div class="col-xs-12 col-sm-3">
+        @Html.Partial("AdminNav")
+    </div>
+    <div class="col-xs-12 col-sm-9">
+        <h4>Edit Course</h4>
+        @Html.ActionLink("Return to List", "Courses", "Admin")
+        @*@Html.ValidationSummary()*@
+        @using (Html.BeginForm())
+        {
+            <ul class="list-group" id="errorMessages"></ul>
+            @Html.HiddenFor(c => c.CourseId)
+            <div class="form-group">
+                <label>Course : </label>
+                @Html.TextBoxFor(c => c.CourseName, new { @class = "form-control", id = "txt-courseName", placeholder = "Course" })
+                <span class="text-danger">@Html.ValidationMessageFor(c => c.CourseName)</span>
+            </div>
+            <button type="submit" class="btn btn-sm btn-primary" onclick="return validateCourse();">Save</button>
+        }
+    </div>
+</div>      

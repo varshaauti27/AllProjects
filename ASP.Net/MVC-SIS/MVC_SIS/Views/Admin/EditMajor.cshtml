@@ -1,0 +1,27 @@
+﻿@model Exercises.Models.Data.Major
+
+@{
+    ViewBag.Title = "Admin-Edit Major";
+}
+
+<div class="row">
+    <div class="col-xs-12 col-sm-3">
+        @Html.Partial("AdminNav")
+    </div>
+    <div class="col-xs-12 col-sm-9">
+        <h4>Edit Major</h4>
+        @Html.ActionLink("Return to List", "Majors", "Admin")
+        @*@Html.ValidationSummary()*@
+        @using (Html.BeginForm())
+        {
+            <ul class="list-group" id="errorMessages"></ul>
+            @Html.HiddenFor(m => m.MajorId)
+            <div class="form-group">
+                <label>Major : </label>
+                @Html.TextBoxFor(m => m.MajorName, new { @class = "form-control",id="txt-majorName", placeholder = "Major" })
+                <span class="text-danger">@Html.ValidationMessageFor(m => m.MajorName)</span>
+            </div>
+            <button type="submit" class="btn btn-sm btn-primary" onclick="return validateMajor();">Save</button>
+        }
+    </div>
+</div>      

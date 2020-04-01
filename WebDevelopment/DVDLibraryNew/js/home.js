@@ -69,7 +69,10 @@ $(document).ready(function () {
 		// check for errors and display any that we have
 		// pass the input associated with the edit form to the validation function
 		var haveValidationErrors = checkAndDisplayValidationErrors($('#edit-form').find('input'));
-
+		if ($('#edit-notes').val() == '') {
+			$('#errorMessages').append($('<li>').attr({ class: 'list-group-item list-group-item-danger' }).text("Notes : Please fill out this field."));
+			haveValidationErrors = true;
+		}					 
 		// if we have errors, bail out by returning false
 		if (haveValidationErrors) {
 			return false;
@@ -99,12 +102,11 @@ $(document).ready(function () {
 						.attr({ class: 'list-group-item list-group-item-danger' })
 						.text('Error calling web service.  Please try again later.'));
 
-				var responseText = (xhr.responseText);
-				alert("Error type : " + errorType);
-				alert("Exception : " + exception + "\nException Type :" + responseText.ExceptionType + "\nResponse Message: " + responseText.Message + "\nRespose StackTrace:" + responseText.StackTrace);
+				//var responseText = (xhr.responseText);
+				//alert("Error type : " + errorType);
+				//alert("Exception : " + exception + "\nException Type :" + responseText.ExceptionType + "\nResponse Message: " + responseText.Message + "\nRespose StackTrace:" + responseText.StackTrace);
 			}
 		})
-
 	});
 });
 
@@ -123,7 +125,7 @@ function loadDvdByID(URL) {
 				var releaseYear = dvd.releaseYear;
 				var director = dvd.director;
 				var rating = dvd.rating;
-				var notes = dvd.notes;
+				var notes = dvd.notes;					  
 
 				var id = dvd.id;
 				var row = '<tr>';
@@ -131,9 +133,6 @@ function loadDvdByID(URL) {
 				row += '<td>' + releaseYear + '</td>';
 				row += '<td>' + director + '</td>';
 				row += '<td>' + rating + '</td>';
-
-				//row += '<td><a onclick="showEditForm(' + id + ')">Edit</a>';
-				//row += ' | <a onclick="deleteDVD(' + id + ')">Delete</a></td>';
 				row += '<td><button class="btn btn-primary" onclick="showEditForm(' + id + ');">Edit</button>';
 				row += '  <button class="btn btn-danger" onclick="deleteDVD(' + id + ');">Delete</button></td>';
 				row += '</tr>';
@@ -145,7 +144,6 @@ function loadDvdByID(URL) {
 				.append($('<li>')
 					.attr({ class: 'list-group-item list-group-item-danger' })
 					.text('Error calling web service.  Please try again later.'));
-
 		}
 	});
 }
@@ -168,6 +166,11 @@ function createNewDvd() {
 	showCreateForm();
 
 	var haveValidationErrors = checkAndDisplayValidationErrors($('#create-form').find('input'));
+
+	if ($('#create-notes').val() == '') {
+			$('#errorMessages').append($('<li>').attr({ class: 'list-group-item list-group-item-danger' }).text("Notes : Please fill out this field."));
+			haveValidationErrors = true;
+		}																						 
 
 	// if we have errors, bail out by returning false
 	if (haveValidationErrors) {
@@ -199,7 +202,7 @@ function createNewDvd() {
 			$('#create-director').val('');
 			$('#create-rating-select').val('G');
 			$('#create-notes').val('');
-			alert("DVD created !!!" + data.id);
+			
 			showDvdDetailDisplay(data.id);
 		},
 		error: function () {
@@ -258,9 +261,6 @@ function loadDVDResults(URL) {
 				row += '<td>' + releaseYear + '</td>';
 				row += '<td>' + director + '</td>';
 				row += '<td>' + rating + '</td>';
-
-				//row += '<td><a onclick="showEditForm(' + id + ')">Edit</a>';
-				//row += ' | <a onclick="deleteDVD(' + id + ')">Delete</a></td>';
 				row += '<td><button class="btn btn-primary" onclick="showEditForm(' + id + ');">Edit</button>';
 				row += '  <button class="btn btn-danger" onclick="deleteDVD(' + id + ');">Delete</button></td>';
 				row += '</tr>';
@@ -273,8 +273,8 @@ function loadDVDResults(URL) {
 					.attr({ class: 'list-group-item list-group-item-danger' })
 					.text('Error calling web service.  Please try again later.'));
 
-			var err = eval(xhr.responseText);
-			alert(err.Message)
+			//var err = eval(xhr.responseText);
+			//alert(err.Message)
 		}
 	});
 }

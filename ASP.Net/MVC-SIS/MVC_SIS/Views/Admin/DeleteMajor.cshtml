@@ -1,0 +1,22 @@
+﻿@model Exercises.Models.Data.Major
+
+@{
+    ViewBag.Title = "Admin-Delete Major";
+}
+
+<div class="row">
+    <div class="col-xs-12 col-sm-3">
+        @Html.Partial("AdminNav")
+    </div>
+    <div class="col-xs-12 col-sm-9">
+        <h4>Delete Major</h4>
+        @Html.ActionLink("Return to List", "Majors", "Admin")
+        @using (Html.BeginForm())
+        {
+            @Html.HiddenFor(m => m.MajorId)
+            <p>Are you sure that you wish to delete the major <b>@Html.DisplayFor(m => m.MajorName)</b>?</p>
+            <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+            @Html.ActionLink("Cancel", "Majors", "Admin", null, new { @class = "btn btn-sm btn-info" })
+        }
+    </div>
+</div>     

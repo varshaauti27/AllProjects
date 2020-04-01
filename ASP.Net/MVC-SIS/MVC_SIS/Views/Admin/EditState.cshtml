@@ -1,0 +1,31 @@
+﻿@model Exercises.Models.Data.State
+
+@{
+    ViewBag.Title = "Admin-Edit State";
+}
+
+<div class="row">
+    <div class="col-xs-12 col-sm-3">
+        @Html.Partial("AdminNav")
+    </div>
+    <div class="col-xs-12 col-sm-9">
+        <h4>Edit State</h4>
+        @Html.ActionLink("Return to List", "States", "Admin")
+        @*@Html.ValidationSummary()*@
+        @using (Html.BeginForm())
+        {
+            <ul class="list-group" id="errorMessages"></ul>
+            <div class="form-group">
+                <label>State Abbreviation : </label>
+                @Html.TextBoxFor(s => s.StateAbbreviation, new { @class = "form-control", id = "txt-stateAbbreviation", placeholder = "State Abbreviation" })
+                <span class="text-danger">@Html.ValidationMessageFor(s => s.StateAbbreviation)</span>
+            </div>
+            <div class="form-group">
+                <label>State Name : </label>
+                @Html.TextBoxFor(s => s.StateName, new { @class = "form-control",id = "txt-stateName", placeholder = "State Name" })
+                <span class="text-danger">@Html.ValidationMessageFor(s => s.StateName)</span>
+            </div>
+            <button type="submit" class="btn btn-sm btn-primary" onclick="return validateState();">Save</button>
+        }
+    </div>
+</div>      

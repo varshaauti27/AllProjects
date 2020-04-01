@@ -1,0 +1,104 @@
+﻿@model Exercises.Models.ViewModels.StudentVM
+
+@{
+    ViewBag.Title = "Student-Edit";
+}
+
+<div class="row">
+    <div class="col-xs-12 col-sm-3">
+        @Html.Partial("StudentNav")
+    </div>
+
+    <div class="col-xs-12 col-sm-9">
+        <h4>Edit Student</h4>
+        @*@Html.ValidationSummary()*@
+
+        @*@Html.ActionLink("Return to List", "Student", "Admin")*@
+
+        @using (Html.BeginForm())
+        {
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <ul class="list-group" id="errorMessages"></ul>
+                    @Html.HiddenFor(s => s.Student.StudentId)
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">Personal Details</h4>
+                        </div>
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <label>First Name:</label>
+                                @Html.TextBoxFor(m => m.Student.FirstName, new { @class = "form-control", id = "txt-firstName", placeholder = "First Name" })
+                                <span class="text-danger">@Html.ValidationMessageFor(s => s.Student.FirstName)</span>
+                            </div>
+                            <div class="form-group">
+                                <label>Last Name:</label>
+                                @Html.TextBoxFor(m => m.Student.LastName, new { @class = "form-control", id = "txt-lastName", placeholder = "Last Name" })
+                                <span class="text-danger">@Html.ValidationMessageFor(s => s.Student.LastName)</span>
+                            </div>
+                            <div class="form-group">
+                                <label>Major:</label>
+                                @Html.DropDownListFor(m => m.Student.Major.MajorId, Model.MajorItems, "-Choose One-", new { @class = "form-control", id = "list-major" })
+                                <span class="text-danger">@Html.ValidationMessageFor(s => s.Student.Major.MajorId)</span>
+                            </div>
+                            <div class="form-group">
+                                <label>GPA:</label>
+                                @Html.TextBoxFor(m => m.Student.GPA, new { @class = "form-control", type = "number", id = "txt-GPA", step = "any" })
+                                <span class="text-danger">@Html.ValidationMessageFor(s => s.Student.GPA)</span>
+                            </div>
+                            <h4>Courses</h4>
+                            <div class="form-group">
+                                @Html.ListBoxFor(m => m.SelectedCourseIds, Model.CourseItems, new { @class = "form-control", id = "list-courseId" })
+                                <span class="text-danger">@Html.ValidationMessageFor(s => s.SelectedCourseIds)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-3">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">Address</h4>
+                        </div>
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <label>Street1:</label>
+                                @Html.TextBoxFor(m => m.Student.Address.Street1, new { @class = "form-control", placeholder = "Street1" })
+                                <span class="text-danger">@Html.ValidationMessageFor(s => s.Student.Address.Street1)</span>
+                            </div>
+                            <div class="form-group">
+                                <label>Street2:</label>
+                                @Html.TextBoxFor(m => m.Student.Address.Street2, new { @class = "form-control", placeholder = "Street2" })
+                                <span class="text-danger">@Html.ValidationMessageFor(s => s.Student.Address.Street2)</span>
+                            </div>
+                            <div class="form-group">
+                                <label>City:</label>
+                                @Html.TextBoxFor(m => m.Student.Address.City, new { @class = "form-control", placeholder = "City" })
+                                <span class="text-danger">@Html.ValidationMessageFor(s => s.Student.Address.City)</span>
+                            </div>
+                            <div class="form-group">
+                                <label>State:</label>
+                                @Html.TextBoxFor(m => m.Student.Address.State.StateAbbreviation, new { @class = "form-control", placeholder = "StateAbbreviation" })
+                                <span class="text-danger">@Html.ValidationMessageFor(s => s.Student.Address.State.StateAbbreviation)</span>
+                                @Html.TextBoxFor(m => m.Student.Address.State.StateName, new { @class = "form-control", placeholder = "State Name" })
+                                <span class="text-danger">@Html.ValidationMessageFor(s => s.Student.Address.State.StateName)</span>
+                            </div>
+                            <div class="form-group">
+                                <label>Postal Code:</label>
+                                @Html.TextBoxFor(m => m.Student.Address.PostalCode, new { @class = "form-control", placeholder = "Postal Code" })
+                                <span class="text-danger">@Html.ValidationMessageFor(s => s.Student.Address.PostalCode)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-6 justify-content-sm-center">
+                    @Html.ActionLink("Cancel", "List", "Student", null, new { @class = "btn btn-sm btn-primary" })
+                </div>
+                <div class="col-sm-6 justify-content-sm-center">
+                    <button type="submit" class="btn btn-sm btn-primary" onclick="return validateStudent();">Save</button>
+                </div>
+            </div>
+        }
+    </div>
+</div>
