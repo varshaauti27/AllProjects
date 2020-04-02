@@ -3,3 +3,8 @@
 \\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\Hangman\HangMan.BLL\obj\Debug\HangMan.BLL.csprojAssemblyReference.cache
 \\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\Hangman\HangMan.BLL\obj\Debug\HangMan.BLL.dll
 \\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\Hangman\HangMan.BLL\obj\Debug\HangMan.BLL.pdb
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\Hangman\HangMan.BLL\bin\Debug\HangMan.BLL.dll
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\Hangman\HangMan.BLL\bin\Debug\HangMan.BLL.pdb
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\Hangman\HangMan.BLL\obj\Debug\HangMan.BLL.csprojAssemblyReference.cache
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\Hangman\HangMan.BLL\obj\Debug\HangMan.BLL.dll
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\Hangman\HangMan.BLL\obj\Debug\HangMan.BLL.pdb

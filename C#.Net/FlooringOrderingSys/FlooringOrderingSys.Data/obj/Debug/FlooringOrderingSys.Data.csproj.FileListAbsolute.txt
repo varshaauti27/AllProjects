@@ -6,3 +6,11 @@
 \\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\FlooringOrderingSys\FlooringOrderingSys.Data\obj\Debug\FlooringOrderingSys.Data.csproj.CopyComplete
 \\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\FlooringOrderingSys\FlooringOrderingSys.Data\obj\Debug\FlooringOrderingSys.Data.dll
 \\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\FlooringOrderingSys\FlooringOrderingSys.Data\obj\Debug\FlooringOrderingSys.Data.pdb
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\FlooringOrderingSys\FlooringOrderingSys.Data\bin\Debug\FlooringOrderingSys.Data.dll
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\FlooringOrderingSys\FlooringOrderingSys.Data\bin\Debug\FlooringOrderingSys.Data.pdb
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\FlooringOrderingSys\FlooringOrderingSys.Data\bin\Debug\FlooringOrderingSys.Models.dll
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\FlooringOrderingSys\FlooringOrderingSys.Data\bin\Debug\FlooringOrderingSys.Models.pdb
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\FlooringOrderingSys\FlooringOrderingSys.Data\obj\Debug\FlooringOrderingSys.Data.csprojAssemblyReference.cache
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\FlooringOrderingSys\FlooringOrderingSys.Data\obj\Debug\FlooringOrderingSys.Data.csproj.CopyComplete
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\FlooringOrderingSys\FlooringOrderingSys.Data\obj\Debug\FlooringOrderingSys.Data.dll
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\FlooringOrderingSys\FlooringOrderingSys.Data\obj\Debug\FlooringOrderingSys.Data.pdb

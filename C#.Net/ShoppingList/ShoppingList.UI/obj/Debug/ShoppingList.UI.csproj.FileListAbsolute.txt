@@ -11,3 +11,16 @@
 \\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\ShoppingList\ShoppingList.UI\obj\Debug\ShoppingList.UI.csproj.CopyComplete
 \\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\ShoppingList\ShoppingList.UI\obj\Debug\ShoppingList.UI.exe
 \\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\ShoppingList\ShoppingList.UI\obj\Debug\ShoppingList.UI.pdb
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\ShoppingList\ShoppingList.UI\bin\Debug\ShoppingList.UI.exe.config
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\ShoppingList\ShoppingList.UI\bin\Debug\ShoppingList.UI.exe
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\ShoppingList\ShoppingList.UI\bin\Debug\ShoppingList.UI.pdb
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\ShoppingList\ShoppingList.UI\bin\Debug\ShoppingList.BLL.dll
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\ShoppingList\ShoppingList.UI\bin\Debug\ShoppingList.Model.dll
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\ShoppingList\ShoppingList.UI\bin\Debug\ShoppingList.Data.dll
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\ShoppingList\ShoppingList.UI\bin\Debug\ShoppingList.BLL.pdb
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\ShoppingList\ShoppingList.UI\bin\Debug\ShoppingList.Model.pdb
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\ShoppingList\ShoppingList.UI\bin\Debug\ShoppingList.Data.pdb
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\ShoppingList\ShoppingList.UI\obj\Debug\ShoppingList.UI.csprojAssemblyReference.cache
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\ShoppingList\ShoppingList.UI\obj\Debug\ShoppingList.UI.csproj.CopyComplete
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\ShoppingList\ShoppingList.UI\obj\Debug\ShoppingList.UI.exe
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\ShoppingList\ShoppingList.UI\obj\Debug\ShoppingList.UI.pdb

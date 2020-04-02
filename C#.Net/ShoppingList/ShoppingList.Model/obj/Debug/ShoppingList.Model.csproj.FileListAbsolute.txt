@@ -3,3 +3,8 @@
 \\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\ShoppingList\ShoppingList.Model\obj\Debug\ShoppingList.Model.csprojAssemblyReference.cache
 \\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\ShoppingList\ShoppingList.Model\obj\Debug\ShoppingList.Model.dll
 \\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\ShoppingList\ShoppingList.Model\obj\Debug\ShoppingList.Model.pdb
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\ShoppingList\ShoppingList.Model\bin\Debug\ShoppingList.Model.dll
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\ShoppingList\ShoppingList.Model\bin\Debug\ShoppingList.Model.pdb
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\ShoppingList\ShoppingList.Model\obj\Debug\ShoppingList.Model.csprojAssemblyReference.cache
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\ShoppingList\ShoppingList.Model\obj\Debug\ShoppingList.Model.dll
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\ShoppingList\ShoppingList.Model\obj\Debug\ShoppingList.Model.pdb

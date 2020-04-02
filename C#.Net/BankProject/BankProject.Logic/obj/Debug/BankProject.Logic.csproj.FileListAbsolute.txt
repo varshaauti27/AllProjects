@@ -8,3 +8,13 @@
 \\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\BankProject\BankProject.Logic\obj\Debug\BankProject.Logic.csproj.CopyComplete
 \\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\BankProject\BankProject.Logic\obj\Debug\BankProject.Logic.dll
 \\Mac\Home\Documents\GitHub\net-mpls-0120-classwork-varshaauti27\BankProject\BankProject.Logic\obj\Debug\BankProject.Logic.pdb
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\BankProject\BankProject.Logic\bin\Debug\BankProject.Logic.dll
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\BankProject\BankProject.Logic\bin\Debug\BankProject.Logic.pdb
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\BankProject\BankProject.Logic\bin\Debug\BankProject.Data.dll
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\BankProject\BankProject.Logic\bin\Debug\BankProject.MLL.dll
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\BankProject\BankProject.Logic\bin\Debug\BankProject.MLL.pdb
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\BankProject\BankProject.Logic\bin\Debug\BankProject.Data.pdb
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\BankProject\BankProject.Logic\obj\Debug\BankProject.Logic.csprojAssemblyReference.cache
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\BankProject\BankProject.Logic\obj\Debug\BankProject.Logic.csproj.CopyComplete
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\BankProject\BankProject.Logic\obj\Debug\BankProject.Logic.dll
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\BankProject\BankProject.Logic\obj\Debug\BankProject.Logic.pdb

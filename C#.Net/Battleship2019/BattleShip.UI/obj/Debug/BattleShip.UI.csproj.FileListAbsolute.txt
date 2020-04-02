@@ -1,0 +1,8 @@
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\Battleship2019\BattleShip.UI\bin\Debug\BattleShip.UI.exe.config
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\Battleship2019\BattleShip.UI\bin\Debug\BattleShip.UI.exe
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\Battleship2019\BattleShip.UI\bin\Debug\BattleShip.UI.pdb
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\Battleship2019\BattleShip.UI\bin\Debug\BattleShip.BLL.dll
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\Battleship2019\BattleShip.UI\obj\Debug\BattleShip.UI.csprojAssemblyReference.cache
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\Battleship2019\BattleShip.UI\obj\Debug\BattleShip.UI.csproj.CopyComplete
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\Battleship2019\BattleShip.UI\obj\Debug\BattleShip.UI.exe
+\\Mac\Home\Documents\GitHub\AllProjects\C#.Net\Battleship2019\BattleShip.UI\obj\Debug\BattleShip.UI.pdb

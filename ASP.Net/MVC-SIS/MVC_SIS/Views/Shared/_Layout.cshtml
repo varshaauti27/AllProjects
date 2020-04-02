@@ -14,7 +14,7 @@
 </head>
 <body>
 
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    @*<div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header navbar-brand">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">
@@ -42,9 +42,30 @@
                 </ul>
             </div>
         </div>
-    </div>
+    </div>*@
 
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!-- Brand -->
+        @Html.ActionLink("Student Information System", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
 
+        <!-- Links -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                @Html.ActionLink("Students", "Index", "Student",new { area=""}, new { @class="btn btn-primary badge-pill col-md-offset-2" })
+            </li>
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a href="#" class="dropdown-toggle btn btn-primary badge-pill col-md-offset-2" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Admin<span class="caret"></span></a>
+
+                <ul class="dropdown-menu">
+                    <li>@Html.ActionLink("Majors", "Majors", "Admin")</li>
+                    <li>@Html.ActionLink("States", "States", "Admin")</li>
+                    <li>@Html.ActionLink("Courses", "Courses", "Admin")</li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
 
     <div class="container body-content">
         @RenderBody()

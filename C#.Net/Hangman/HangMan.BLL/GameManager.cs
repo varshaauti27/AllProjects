@@ -25,7 +25,7 @@ namespace HangMan.BLL
             {
                 _tempString[i] = '_';
             }
-            Console.WriteLine(" >>>>>>>>>" +_guessWord);
+            //Console.WriteLine(" >>>>>>>>>" +_guessWord);
         }
 
         public PlayRoundResponse PlayRound(char guess)
