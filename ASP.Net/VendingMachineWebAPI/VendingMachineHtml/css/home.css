@@ -1,0 +1,81 @@
+#styleBottom{ 
+  height: 20px; 
+  border-style: solid; 
+  border-color: #115CB9; 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px; 
+} 
+
+#styleBottom : before { 
+  display: block; 
+  content: ""; 
+  height: 20px; 
+  margin-top: -10px; 
+  border-style: solid; 
+  border-color: #115CB9; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px;
+  }
+ 
+#styleUp{ 
+  height: 15px; 
+  border-style: solid; 
+  border-color: #115CB9; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+} 
+
+#styleUp : before { 
+  display: block; 
+  content: ""; 
+  height: 15px; 
+  margin-top: -10px; 
+  border-style: solid; 
+  border-color: #115CB9; 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px;
+  }
+
+h1{
+  text-shadow: 1px 1px 3px #66ccff;
+}
+h3,h1,#Item-label{
+  font-weight: bold;
+  font-family: Palatino Linotype;
+}
+
+#Item-label{
+	font-size: 18px;
+}
+ 
+#item-purchase-text,#total-dollar-In-text{
+  font-weight: bold;
+  font-size: 16px;
+  color: purple;
+  width:100px;
+  text-align: center;
+}
+
+#messages-text,#change-return-text{
+  width:200px;
+  font-weight: bold;
+  font-size: 16px;
+  color: red;
+  text-align: center;
+}
+
+#add-dollar-button,#add-quarter-button,#add-dime-button,#add-nickel-button,#make-purchase-button,#change-return-button{
+  margin: 0 5px 0 5px;
+  font-weight: bold;
+}
+
+#item{
+  box-shadow: 10px 10px 5px grey;
+  background: linear-gradient(to bottom, #66ccff 0%, #ffffff 100%);
+}
+
+#itemId{
+  color: purple;
+  font-weight: bold;
+  font-size: 16px;
+}

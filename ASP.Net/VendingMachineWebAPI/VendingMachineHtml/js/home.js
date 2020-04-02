@@ -18,7 +18,7 @@ function loadAllItems()
 	
 	$.ajax({
 		type: 'GET',
-		url: 'https://tsg-vending.herokuapp.com/items',
+		url: 'http://tsg-vending.herokuapp.com/items',
 		success: function(itemArray){
 			var itemDiv = newRowDiv;
 			$.each(itemArray,function(index,item){
@@ -150,7 +150,7 @@ function makePurchase()
 		return;
 	}
 	
-	var URL ='https://tsg-vending.herokuapp.com/money/' + $('#total-dollar-In-text').val() + '/item/' + $('#item-purchase-text').val();
+	var URL ='http://tsg-vending.herokuapp.com/money/' + $('#total-dollar-In-text').val() + '/item/' + $('#item-purchase-text').val();
 	
 	$.ajax({
 		type: 'POST',
