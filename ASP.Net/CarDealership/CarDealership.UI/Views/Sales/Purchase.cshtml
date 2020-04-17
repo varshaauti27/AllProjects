@@ -1,0 +1,166 @@
+﻿@model CarDealership.UI.Models.PurchaseViewModel
+@{
+    ViewBag.Title = "Purchase";
+}
+
+<h2>Purchase Vehicle</h2>
+
+<div id="VehicleTemplate" class="VehicleTemplateDiv row">
+    <div class="row col-md-12">
+        <label id="vehicle-Heading" class="col-sm-3">
+            @Model.Vehicle.Year @Model.Vehicle.MakeName @Model.Vehicle.ModelName
+        </label>
+    </div>
+
+    <div class="row col-md-12">
+        <div class="col-md-3">
+            <img src="~/Images/@Model.Vehicle.ImageFile" id="vehicle-Image" class="VehicleTileImage" />
+        </div>
+
+        <div class="col-md-3">
+            <div>
+                <b>Body Style:</b><span id="vehicle-BodyStyle">@Model.Vehicle.BodyStyle</span>
+            </div>
+            <div>
+                <b>Trans:</b><span id="vehicle-TransmissionText">@Model.Vehicle.TransmissionText</span>
+            </div>
+            <div>
+                <b>Color:</b><span id="vehicle-ExteriorColor">@Model.Vehicle.ExteriorColor</span>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div>
+                <b>Interior:</b><span id="vehicle-InteriorColor">@Model.Vehicle.InteriorColor</span>
+            </div>
+            <div>
+                <b>Mileage:</b><span id="vehicle-Mileage">@Model.Vehicle.Mileage</span>
+            </div>
+            <div>
+                <b>VIN #:</b><span id="vehicle-Vin">@Model.Vehicle.Vin</span>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div>
+                <b>Sale Price:</b><span id="vehicle-SalesPrice">@Model.Vehicle.SalesPrice</span>
+            </div>
+            <div>
+                <b>MRSP:</b><span id="vehicle-MSRP">@Model.Vehicle.MSRP</span>
+            </div>
+        </div>
+
+        <div class="row col-sm-12">
+            <div class="col-sm-3 text-right">
+
+            </div>
+            <div class="col-md-9 col-md-offset-3">
+                <div>
+                    <b>Description: </b><span id="vehicle-Description">@Model.Vehicle.Description</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <h3>Sales Information </h3>
+</div>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary()
+
+    @Html.HiddenFor(m => m.Vehicle.Vin)
+    @Html.HiddenFor(m => m.Vehicle.IsNew)
+    @Html.HiddenFor(m => m.Vehicle.Year)
+    @Html.HiddenFor(m => m.Vehicle.Mileage)
+    @Html.HiddenFor(m => m.Vehicle.SalesPrice)
+    @Html.HiddenFor(m => m.Vehicle.MSRP)
+    @Html.HiddenFor(m => m.Vehicle.Description)
+    @Html.HiddenFor(m => m.Vehicle.ImageFile)
+    @Html.HiddenFor(m => m.Vehicle.IsFeaturedVehicle)
+    @Html.HiddenFor(m => m.Vehicle.UserId)
+    @Html.HiddenFor(m => m.Vehicle.InStock)
+    @Html.HiddenFor(m => m.Vehicle.ModelName)
+    @Html.HiddenFor(m => m.Vehicle.MakeName)
+    @Html.HiddenFor(m => m.Vehicle.BodyStyle)
+    @Html.HiddenFor(m => m.Vehicle.TransmissionText)
+    @Html.HiddenFor(m => m.Vehicle.ExteriorColor)
+    @Html.HiddenFor(m => m.Vehicle.InteriorColor)
+
+    <div class="form-group row">
+        <div class="col-sm-4">
+            <label>Name </label>
+            @Html.TextBoxFor(m => m.Customer.Name, new { @class = "form-control",required="required" })
+            <span class="text-danger">@Html.ValidationMessageFor(m => m.Customer.Name)</span>
+        </div>
+        <div class="col-sm-4">
+            <label>Phone </label>
+            @Html.TextBoxFor(m => m.Customer.Phone, new { @class = "form-control" })
+            <span class="text-danger">@Html.ValidationMessageFor(m => m.Customer.Phone)</span>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <div class="col-sm-4">
+            <label>Email </label>
+            @Html.TextBoxFor(m => m.Customer.Email, new { @class = "form-control" ,@type="email"})
+            <span class="text-danger">@Html.ValidationMessageFor(m => m.Customer.Email)</span>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <div class="col-sm-4">
+            <label>Street1 </label>
+            @Html.TextBoxFor(m => m.Customer.Address.Street1, new { @class = "form-control" ,required="required"})
+            <span class="text-danger">@Html.ValidationMessageFor(m => m.Customer.Address.Street1)</span>
+        </div>
+        <div class="col-sm-4">
+            <label>Street2 </label>
+            @Html.TextBoxFor(m => m.Customer.Address.Street2, new { @class = "form-control" })
+            <span class="text-danger">@Html.ValidationMessageFor(m => m.Customer.Address.Street2)</span>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <div class="col-sm-4">
+            <label>City </label>
+            @Html.TextBoxFor(m => m.Customer.Address.City, new { @class = "form-control",required="required" })
+            <span class="text-danger">@Html.ValidationMessageFor(m => m.Customer.Address.City)</span>
+        </div>
+        <div class="col-sm-4">
+            <label>State </label>
+            @Html.DropDownListFor(m => m.Customer.Address.State.Id, Model.StateItems, "-Choose One-", new { @class = "form-control col-sm-5", id = "list-state" ,required="required"})
+            <span class="text-danger">@Html.ValidationMessageFor(m => m.Customer.Address.State.Id)</span>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <div class="col-sm-4">
+            <label>Zipcode </label>
+            @Html.TextBoxFor(m => m.Customer.Address.Zipcode, new { @class = "form-control",@min=0,@max=99999, @maxLength =5 ,required="required"})
+            <span class="text-danger">@Html.ValidationMessageFor(m => m.Customer.Address.Zipcode)</span>
+        </div>
+    </div>
+
+    <hr />
+
+    <div class="form-group row">
+        <div class="col-sm-4">
+            <label>Purchase Price </label>
+            @{ 
+                decimal minPrice = 0.95M;
+            }
+            @Html.TextBoxFor(m => m.Sales.PurchasePrice, new { @class = "form-control" ,@type="number" , @min =Model.Vehicle.SalesPrice* minPrice ,@max = Model.Vehicle.MSRP ,required="required"})
+            <span class="text-danger">@Html.ValidationMessageFor(m => m.Sales.PurchasePrice)</span>
+        </div>
+        <div class="col-sm-4">
+            <label>Purchase Type </label>
+            @Html.DropDownListFor(m => m.Sales.PurchaseTypeId, Model.PurchaseTypeItems, "-Choose One-", new { @class = "form-control col-sm-5", id = "list-purchaseType",required="required" })
+        <span class="text-danger">@Html.ValidationMessageFor(m => m.Sales.PurchaseTypeId)</span>
+        </div>
+    </div>
+
+    <button class="btn btn-primary">Save</button>
+}

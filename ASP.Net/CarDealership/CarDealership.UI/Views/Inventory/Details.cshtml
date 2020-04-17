@@ -1,0 +1,69 @@
+﻿@model CarDealership.UI.Models.Vehicle
+@{
+    ViewBag.Title = "Vehicle Details";
+}
+<h2>@ViewBag.Title</h2>
+<hr />
+<div id="VehicleTemplate" class="VehicleTemplateDiv row">
+    <div class="row col-sm-12">
+        <label id="vehicle-Heading" class="col-sm-3">
+            @Model.Year @Model.MakeName @Model.ModelName
+        </label>
+    </div>
+
+    <div class="row col-sm-12">
+        <div class="col-sm-3">
+            <img src="~/Images/@Model.ImageFile" id="vehicle-Image" class="VehicleTileImage" />
+        </div>
+
+        <div class="col-sm-3">
+            <div>
+                <b>Body Style:</b><span id="vehicle-BodyStyle">@Model.BodyStyle</span>
+            </div>
+            <div>
+                <b>Trans:</b><span id="vehicle-TransmissionText">@Model.TransmissionText</span>
+            </div>
+            <div>
+                <b>Color:</b><span id="vehicle-ExteriorColor">@Model.ExteriorColor</span>
+            </div>
+        </div>
+
+        <div class="col-sm-3">
+            <div>
+                <b>Interior:</b><span id="vehicle-InteriorColor">@Model.InteriorColor</span>
+            </div>
+            <div>
+                <b>Mileage:</b><span id="vehicle-Mileage">@Model.Mileage</span>
+            </div>
+            <div>
+                <b>VIN #:</b><span id="vehicle-Vin">@Model.Vin</span>
+            </div>
+        </div>
+
+        <div class="col-sm-3">
+            <div>
+                <b>Sale Price:</b><span id="vehicle-SalesPrice">@Model.SalesPrice</span>
+            </div>
+            <div>
+                <b>MRSP:</b><span id="vehicle-MSRP">@Model.MSRP</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="row col-sm-12">
+        <div class="col-sm-3 text-right">
+
+        </div>
+        <div class="col-md-9 col-md-offset-3">
+            <div>
+                <b>Description: </b><span id="vehicle-Description">@Model.Description</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="row col-sm-12">
+        <div class="col-sm-12 text-right">
+            <a class="btn btn-primary" style="margin-bottom:10px;" href="@Url.Action("Contact","Home",new { id = @Model.Vin })">Contact Us</a>
+        </div>
+    </div>
+</div>

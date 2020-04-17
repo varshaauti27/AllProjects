@@ -1,0 +1,68 @@
+﻿@*@model IEnumerable<BlogPostWebsite.Models.PostViewModel>*@
+@model PagedList.IPagedList<BlogPostWebsite.Models.PostViewModel>
+@using PagedList.Mvc;
+
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+@{
+    ViewBag.Title = "Review";
+}
+
+<div class="jumbotron alert-info">
+    <h1>Blogs..</h1>
+    <p class="lead"></p>
+</div>
+
+
+@*@Html.Partial("_SearchNavBar")*@
+
+
+<div class="row col-sm-12">
+    <div class="col-sm-12 text-right">
+        <span class="text-danger" id="errorMessages"></span>
+    </div>
+</div>
+<div class="col-sm-12">
+    <h3>All Blogs</h3>
+    <hr />
+</div>
+
+@if (Model != null)
+{
+    foreach (var Post in Model)
+    {
+        using (Html.BeginForm("ApprovePosts", "Blog", FormMethod.Post, Post.Post.PostId))
+        {
+            <div class="row col-sm-12">
+                <div class="post-info col-sm-12">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <input type="number" readonly hidden name="PostId" value="@Post.Post.PostId" />
+                        <h4>@Post.Post.Title</h4>
+                        <small>@Post.AuthorName | @Post.Post.DatePosted.ToShortDateString()</small>
+                    </div>
+
+                    <ul>
+                        <li>@Html.Raw(Post.Post.Description)</li>
+                    </ul>
+
+                    <div class="row col-sm-12">
+                        <input type="checkbox" name="IsApproved" id="check" class="form-control-sm" />
+                        <label for="check"><small>Approve</small></label>
+                        <button type="submit" class="btn btn-sm btn-secondary" style="margin-left:10px">Save Approval</button>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+}
+
+<br />
+    Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+    @Html.PagedListPager(Model, page => Url.Action("Review",
+        new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))
+
+    @section Scripts {
+
+        <script src="~/Scripts/BlogSearch.js"></script>
+    }

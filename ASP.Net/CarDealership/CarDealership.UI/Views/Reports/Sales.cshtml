@@ -1,0 +1,67 @@
+﻿@model CarDealership.UI.Models.SalesReportViewModel
+@{
+    ViewBag.Title = "Sales";
+}
+
+<h2>Sales Report</h2>
+<hr/>
+<div id="borderDiv" class="row">
+    <div class="row form-group form-horizontal col-sm-12">
+        Filters
+    </div>
+
+    <div class="row form-group form-horizontal col-sm-12">
+        <div class="col-md-2">
+            <label for="list-users">User </label>
+            @Html.DropDownListFor(m => m.Users, Model.UserItems, "-All-", new { @class = "form-control", id = "list-users" })
+        </div>
+        <div class="col-md-3">
+            <label for="from-datepicker">From Date</label>
+            <input type="text" class="form-control" id="from-datepicker" placeholder="Select From Date" readonly>
+        </div>
+        <div class="col-md-3">
+            <label for="to-datepicker">To Date</label>
+            <input type="text" class="form-control" id="to-datepicker" placeholder="Select To Date" readonly>
+        </div>
+        <div class="col-md-4" style="padding-top:30px;">
+            <input type="submit" class="btn btn-primary" value="Search" onclick="GetSalesReport();" />
+        </div>
+    </div>
+
+</div>
+
+<div class="row col-sm-12">
+    <h3>Search Result</h3>
+</div>
+
+<div id="searchResultDiv" class="row col-sm-8" style="display:none">
+    <table id="searchTable" class="table table-hover table-bordered table-condensed table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th width="40%">User</th>
+                <th width="20%">Total Sales</th>
+                <th width="20%">Total Vehicle</th>
+            </tr>
+        </thead>
+        <!--
+            #3: This holds the list of Sales - we will add rows
+            dynamically
+            using jQuery
+        -->
+        <tbody id="contentRows"></tbody>
+    </table>
+</div>
+
+<div id="noResultDiv" class="row col-sm-8" style="display:none">
+    <h4>No result found!!</h4>
+</div>
+
+
+@section scripts {
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.standalone.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js"></script>
+
+    <script src="~/Scripts/Reports.js"></script>
+
+}

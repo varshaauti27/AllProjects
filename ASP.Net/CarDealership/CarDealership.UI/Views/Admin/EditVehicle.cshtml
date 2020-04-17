@@ -1,0 +1,135 @@
+﻿@model CarDealership.UI.Models.AddEditVehicleViewModel
+
+@{
+    ViewBag.Title = "EditVehicle";
+}
+
+<h2>EditVehicle</h2>
+
+<hr />
+@using (Html.BeginForm("EditVehicle", "Admin", FormMethod.Post, new
+{
+    enctype = "multipart/form-data"
+}))
+{
+    @*@Html.ValidationSummary()*@
+
+    <div class="form-group row">
+        <div class="col-sm-4">
+            <label>Make </label>
+            @Html.DropDownListFor(m => m.MakeId, Model.MakeItems, "-Choose One-", new { @class = "form-control", id = "list-make" })
+            <span class="text-danger">@Html.ValidationMessageFor(m => m.MakeId)</span>
+        </div>
+        <div class="col-sm-4">
+            <label>Model </label>
+            @Html.DropDownListFor(m => m.ModelId, Model.ModelItems, "-Choose One-", new { @class = "form-control", id = "list-model" })
+            <span class="text-danger">@Html.ValidationMessageFor(m => m.ModelId)</span>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <div class="col-sm-4">
+            <label>Type </label>
+            @Html.DropDownListFor(m => m.TypeId, Model.TypeItems, "-Choose One-", new { @class = "form-control", id = "list-type" })
+            <span class="text-danger">@Html.ValidationMessageFor(m => m.TypeId)</span>
+        </div>
+        <div class="col-sm-4">
+            <label>Body Style </label>
+            @Html.DropDownListFor(m => m.Vehicle.BodyStyle, Model.BodyStyleItems, "-Choose One-", new { @class = "form-control", id = "list-bodyStyle" })
+            <span class="text-danger">@Html.ValidationMessageFor(m => m.Vehicle.BodyStyle)</span>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <div class="col-sm-4">
+            <label>Year </label>
+            @Html.TextBoxFor(m => m.Vehicle.Year, new { @class = "form-control", @maxlength = "4", @type = "number", @min = 2000, @max = DateTime.Today.Year + 1 })
+            <span class="text-danger">@Html.ValidationMessageFor(m => m.Vehicle.Year)</span>
+        </div>
+        <div class="col-sm-4">
+            <label>Transmission </label>
+            @Html.DropDownListFor(m => m.Vehicle.TransmissionText, Model.TransmissionItems, "-Choose One-", new { @class = "form-control", id = "list-transmission" })
+            <span class="text-danger">@Html.ValidationMessageFor(m => m.Vehicle.TransmissionText)</span>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <div class="col-sm-4">
+            <label>Color </label>
+            @Html.DropDownListFor(m => m.Vehicle.InteriorColor, Model.ColorItems, "-Choose One-", new { @class = "form-control", id = "list-color" })
+            <span class="text-danger">@Html.ValidationMessageFor(m => m.Vehicle.InteriorColor)</span>
+        </div>
+        <div class="col-sm-4">
+            <label>Exterior Color </label>
+            @Html.DropDownListFor(m => m.Vehicle.ExteriorColor, Model.ColorItems, "-Choose One-", new { @class = "form-control", id = "list-color" })
+            <span class="text-danger">@Html.ValidationMessageFor(m => m.Vehicle.ExteriorColor)</span>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <div class="col-sm-4">
+            <label>Mileage </label>
+            @Html.TextBoxFor(m => m.Vehicle.Mileage, new { @class = "form-control", id = "mileage-text", @type = "number" })
+            <span class="text-danger">@Html.ValidationMessageFor(m => m.Vehicle.Mileage)</span>
+        </div>
+        <div class="col-sm-4">
+            <label>VIN# </label>
+            @Html.TextBoxFor(m => m.Vehicle.Vin, new { @class = "form-control", @maxLength = 17 })
+            <span class="text-danger">@Html.ValidationMessageFor(m => m.Vehicle.Vin)</span>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <div class="col-sm-4">
+            <label>MSRP </label>
+            @Html.TextBoxFor(m => m.Vehicle.MSRP, new { @class = "form-control", @type = "number", @min = 1 })
+            <span class="text-danger">@Html.ValidationMessageFor(m => m.Vehicle.MSRP)</span>
+        </div>
+        <div class="col-sm-4">
+            <label>Sale Price </label>
+            @Html.TextBoxFor(m => m.Vehicle.SalesPrice, new { @class = "form-control", @type = "number", @min = 1 })
+            <span class="text-danger">@Html.ValidationMessageFor(m => m.Vehicle.SalesPrice)</span>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <div class="col-sm-8">
+            <label>Description </label>
+            @Html.TextAreaFor(m => m.Vehicle.Description, new { @class = "form-control" })
+            <span class="text-danger">@Html.ValidationMessageFor(m => m.Vehicle.Description)</span>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label>Replace Picture </label>
+        <div class="col-sm-4">
+            @{
+                if (!File.Exists(HttpContext.Current.Server.MapPath("~/Images/" + Model.Vehicle.ImageFile)))
+                {
+                    Model.Vehicle.ImageFile = "icon.png";
+                }
+            }
+            @Html.HiddenFor(m => m.Vehicle.ImageFile)
+            <img src="~/Images/@Model.Vehicle.ImageFile" class="VehicleTileImage" />
+            <input type="file" title="Upload image" id="file" name="file" accept="image/png, image/jpeg, image/jpg" />
+            <span class="text-danger">@Html.ValidationMessageFor(m => m.Vehicle.ImageFile)</span>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <div class="col-sm-4">
+            @Html.CheckBoxFor(m => m.Vehicle.IsFeaturedVehicle, new { @class = "" }) <label>Feature this Vehicle</label>
+        </div>
+    </div>
+    <div class="form-group row">
+        <div class="col-sm-4">
+            @Html.ActionLink("Delete", "DeleteVehicle", "Admin", new { id = Model.Vehicle.Vin }, new { @class = "btn btn-danger", id = "btnDelete" })
+            <button class="btn btn-primary col-sm-offset-1">Save</button>
+        </div>
+    </div>
+}
+
+@section scripts {
+    <script src="~/Scripts/AdminVehicle.js"></script>
+    
+    }

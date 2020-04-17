@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    @*<link href="~/Content/bootstrap.css" rel="stylesheet" />
+        <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="~/Content/bootstrap-theme.min.css" rel="stylesheet" />
+        <script src="~/Scripts/modernizr-2.6.2.js"></script>*@
+</head>
+<body>
+    @*<div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    @Html.ActionLink("Car Dealership", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("New Inventory", "New", "Inventory")</li>
+                        <li>@Html.ActionLink("Used Inventory", "Used", "Inventory")</li>
+                        <li>@Html.ActionLink("Specials", "Specials", "Home")</li>
+
+                        @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                        {
+                            <li>@Html.ActionLink("Sales", "Index", "Sales")</li>
+                            <li>@Html.ActionLink("Admin", "Vehicles", "Admin")</li>
+                        }
+
+                        @if (User.Identity.IsAuthenticated && User.IsInRole("Sales"))
+                        {
+                            <li>@Html.ActionLink("Sales", "Index", "Sales")</li>
+                        }
+
+                        <li>@Html.ActionLink("Contact Us", "Contact", "Home")</li>
+                        <li>@Html.ActionLink("About", "About", "Home")</li>
+
+                    </ul>
+                    @Html.Partial("_LoginPartial")
+                </div>
+            </div>
+        </div>*@
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        @Html.ActionLink("Car Dealership", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    @*@Html.ActionLink("Home", "Index", "Home")*@
+                    <a class="nav-item nav-link" href="/Home/Index">Home</a>
+                </li>
+                <li class="nav-item">
+                    @*@Html.ActionLink("New Inventory", "New", "Inventory")*@
+                    <a class="nav-item nav-link" href="/Inventory/New">New</a>
+                </li>
+                <li class="nav-item">
+                    @*@Html.ActionLink("Used Inventory", "Used", "Inventory")*@
+                    <a class="nav-item nav-link" href="/Inventory/Used">Used</a>
+                </li>
+                <li class="nav-item">
+                    @*@Html.ActionLink("Specials", "Specials", "Home")*@
+                    <a class="nav-item nav-link" href="/Home/Specials">Specials</a>
+                </li>
+
+                @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                {
+                    <li class="nav-item">
+                        @*@Html.ActionLink("Sales", "Index", "Sales")*@
+                        <a class="nav-item nav-link" href="/Sales/Index">Sales</a>
+                    </li>
+                    <li class="nav-item">
+                        @* @Html.ActionLink("Admin", "Vehicles", "Admin")*@
+                        <a class="nav-item nav-link" href="/Admin/Vehicles">Admin</a>
+                    </li>
+                }
+
+                @if (User.Identity.IsAuthenticated && User.IsInRole("Sales"))
+                {
+            <li class="nav-item">
+                @*@Html.ActionLink("Sales", "Index", "Sales")*@
+                <a class="nav-item nav-link" href="/Sales/Index">Sales</a>
+            </li>
+                }
+
+            <li class="nav-item">
+                @*@Html.ActionLink("Contact Us", "Contact", "Home")*@
+                <a class="nav-item nav-link" href="/Home/Contact">Contact</a>
+            </li>
+            <li class="nav-item">
+                @*@Html.ActionLink("About", "About", "Home")*@
+                <a class="nav-item nav-link" href="/Home/About">About</a>
+            </li>
+            </ul>
+
+            <span class="navbar-text">
+                @Html.Partial("_LoginPartial")
+            </span>
+        </div>
+    </nav>
+    <div class="container body-content">
+        @RenderBody()
+
+        <footer class="col-md-12">
+            <hr />
+            <p>&copy; @DateTime.Now.Year - Car Dealership(ASP.NET Application)</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+
+    @RenderSection("scripts", required: false)
+
+    @*<script src="~/Scripts/jquery-2.2.3.min.js"></script>
+        <script src="~/Scripts/bootstrap.min.js"></script>
+        <script src="~/Scripts/bootstrap.js"></script>*@
+</body>
+</html>

@@ -1,0 +1,58 @@
+﻿@model List<CarDealership.UI.Models.UserViewModel>
+@{
+    ViewBag.Title = "Users";
+}
+
+<h2>Users</h2>
+<hr/>
+<div class="panel panel-primary col-sm-8">
+    <div class="panel-heading">
+        <h3 class="box-title">
+            <a class="btn btn-primary" href="@Url.Action("AddUser","Admin")">Add a new User</a>
+        </h3>
+    </div>
+    <!-- /.box-header -->
+    <div class="panel-body">
+        <table class="table table-hover table-bordered table-condensed table-striped" id="UsersWithRoles">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Roles</th>
+                    <th></th>
+                </tr>
+            </thead>
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <td>@user.UserName</td>
+                    <td>@user.Email</td>
+                    <td>@user.Role</td>
+                    <td>@Html.ActionLink("Edit", "EditUser", "Admin", new { id = user.UserId }, new { @class = "btn btn-primary" })</td>
+                </tr>
+            }
+        </table>
+    </div>
+
+    <div class="panel-footer">
+        <p class="box-title"><b>Total Users till @String.Format("{0 : dddd, MMMM d, yyyy}", DateTime.Now)  : </b><span class="label label-primary">@Model.Count()</span></p>
+    </div>
+</div>
+
+@section scripts{
+
+    <script>
+
+        $(function () {
+            $('#UsersWithRoles').DataTable({
+                "paging": true,
+                "lengthChange": true,
+                "searching": true,
+                "ordering": true,
+                "info": true,
+                "autoWidth": true
+            });
+        });
+    </script>
+}
+

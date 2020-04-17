@@ -1,0 +1,438 @@
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\BlogPostWebsite.dll.config
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\BlogPostWebsite.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\BlogPostWebsite.pdb
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\roslyn\csc.exe
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\roslyn\csc.exe.config
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\roslyn\csc.rsp
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\roslyn\csi.exe
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\roslyn\csi.rsp
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\roslyn\Microsoft.CodeAnalysis.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\roslyn\Microsoft.CSharp.Core.targets
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\roslyn\System.AppContext.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\roslyn\System.Collections.Immutable.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\roslyn\System.Diagnostics.StackTrace.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\roslyn\System.IO.FileSystem.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\roslyn\System.IO.FileSystem.Primitives.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\roslyn\System.Reflection.Metadata.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\roslyn\vbc.exe
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\roslyn\vbc.exe.config
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\roslyn\vbc.rsp
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\roslyn\VBCSCompiler.exe
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\roslyn\VBCSCompiler.exe.config
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\Antlr3.Runtime.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\EntityFramework.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\EntityFramework.SqlServer.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\Microsoft.AspNet.Identity.Core.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\Microsoft.AspNet.Identity.Owin.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\Microsoft.Owin.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\Microsoft.Owin.Host.SystemWeb.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\Microsoft.Owin.Security.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\Microsoft.Owin.Security.Facebook.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\Microsoft.Owin.Security.Google.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\Microsoft.Owin.Security.OAuth.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\Microsoft.Owin.Security.Twitter.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\Microsoft.Web.Infrastructure.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\Newtonsoft.Json.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\Owin.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\System.Web.Helpers.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\System.Web.Mvc.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\System.Web.Optimization.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\System.Web.Razor.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\System.Web.WebPages.Deployment.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\System.Web.WebPages.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\System.Web.WebPages.Razor.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\WebGrease.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\System.Web.Helpers.xml
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\System.Web.Mvc.xml
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\System.Web.Optimization.xml
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\System.Web.Razor.xml
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\System.Web.WebPages.xml
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\System.Web.WebPages.Deployment.xml
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\System.Web.WebPages.Razor.xml
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\Newtonsoft.Json.xml
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\Antlr3.Runtime.pdb
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\EntityFramework.xml
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\EntityFramework.SqlServer.xml
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\Microsoft.AspNet.Identity.Core.xml
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\Microsoft.AspNet.Identity.Owin.xml
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\Microsoft.Owin.xml
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\Microsoft.Owin.Host.SystemWeb.xml
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\Microsoft.Owin.Security.xml
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\Microsoft.Owin.Security.Facebook.xml
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\Microsoft.Owin.Security.Google.xml
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\Microsoft.Owin.Security.Twitter.xml
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\Microsoft.Owin.Security.OAuth.xml
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\obj\Debug\BlogPostWebsite.csproj.CopyComplete
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\obj\Debug\BlogPostWebsite.dll
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\obj\Debug\BlogPostWebsite.pdb
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\obj\Debug\BlogPostWebsite.csprojAssemblyReference.cache
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\obj\Debug\BlogPostWebsite.Migrations.init.resources
+\\Mac\Home\Documents\GitHub\Shared\BlogPostWebsite\obj\Debug\BlogPostWebsite.csproj.GenerateResource.cache
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\obj\Debug\BlogPostWebsite.csprojAssemblyReference.cache
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\obj\Debug\BlogPostWebsite.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\obj\Debug\BlogPostWebsite.pdb
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\BlogPostWebsite.dll.config
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\BlogPostWebsite.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\BlogPostWebsite.pdb
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\roslyn\csc.exe
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\roslyn\csc.exe.config
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\roslyn\csc.rsp
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\roslyn\csi.exe
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\roslyn\csi.rsp
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\roslyn\Microsoft.CodeAnalysis.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\roslyn\Microsoft.CSharp.Core.targets
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\roslyn\Microsoft.VisualBasic.Core.targets
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\roslyn\System.AppContext.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\roslyn\System.Collections.Immutable.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\roslyn\System.Diagnostics.StackTrace.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\roslyn\System.IO.FileSystem.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\roslyn\System.IO.FileSystem.Primitives.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\roslyn\System.Reflection.Metadata.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\roslyn\vbc.exe
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\roslyn\vbc.exe.config
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\roslyn\vbc.rsp
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\roslyn\VBCSCompiler.exe
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\roslyn\VBCSCompiler.exe.config
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\Antlr3.Runtime.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\EntityFramework.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\EntityFramework.SqlServer.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\Microsoft.AspNet.Identity.Core.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\Microsoft.AspNet.Identity.Owin.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\Microsoft.Owin.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\Microsoft.Owin.Host.SystemWeb.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\Microsoft.Owin.Security.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\Microsoft.Owin.Security.Facebook.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\Microsoft.Owin.Security.Google.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\Microsoft.Owin.Security.OAuth.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\Microsoft.Owin.Security.Twitter.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\Microsoft.Web.Infrastructure.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\Newtonsoft.Json.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\Owin.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\System.Web.Helpers.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\System.Web.Mvc.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\System.Web.Optimization.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\System.Web.Razor.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\System.Web.WebPages.Deployment.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\System.Web.WebPages.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\System.Web.WebPages.Razor.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\WebGrease.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\EntityFramework.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\EntityFramework.SqlServer.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\Microsoft.AspNet.Identity.Core.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\Microsoft.AspNet.Identity.Owin.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\Microsoft.Owin.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\Microsoft.Owin.Host.SystemWeb.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\Microsoft.Owin.Security.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\Microsoft.Owin.Security.Facebook.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\Microsoft.Owin.Security.Google.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\Microsoft.Owin.Security.OAuth.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\Microsoft.Owin.Security.Twitter.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\Newtonsoft.Json.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\System.Web.Helpers.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\System.Web.Mvc.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\System.Web.Optimization.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\System.Web.Razor.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\System.Web.WebPages.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\System.Web.WebPages.Deployment.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\System.Web.WebPages.Razor.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\Antlr3.Runtime.pdb
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-OLD\obj\Debug\BlogPostWebsite.csproj.CopyComplete
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\BlogPostWebsite.dll.config
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\BlogPostWebsite.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\BlogPostWebsite.pdb
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\roslyn\csc.exe
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\roslyn\csc.exe.config
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\roslyn\csc.rsp
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\roslyn\csi.exe
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\roslyn\csi.rsp
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\roslyn\Microsoft.CodeAnalysis.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\roslyn\Microsoft.CSharp.Core.targets
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\roslyn\Microsoft.VisualBasic.Core.targets
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\roslyn\System.AppContext.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\roslyn\System.Collections.Immutable.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\roslyn\System.Diagnostics.StackTrace.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\roslyn\System.IO.FileSystem.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\roslyn\System.IO.FileSystem.Primitives.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\roslyn\System.Reflection.Metadata.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\roslyn\vbc.exe
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\roslyn\vbc.exe.config
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\roslyn\vbc.rsp
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\roslyn\VBCSCompiler.exe
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\roslyn\VBCSCompiler.exe.config
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\Antlr3.Runtime.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\EntityFramework.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\EntityFramework.SqlServer.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\Microsoft.AspNet.Identity.Core.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\Microsoft.AspNet.Identity.Owin.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\Microsoft.Owin.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\Microsoft.Owin.Host.SystemWeb.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\Microsoft.Owin.Security.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\Microsoft.Owin.Security.Facebook.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\Microsoft.Owin.Security.Google.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\Microsoft.Owin.Security.OAuth.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\Microsoft.Owin.Security.Twitter.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\Microsoft.Web.Infrastructure.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\Newtonsoft.Json.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\Owin.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\System.Web.Helpers.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\System.Web.Mvc.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\System.Web.Optimization.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\System.Web.Razor.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\System.Web.WebPages.Deployment.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\System.Web.WebPages.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\System.Web.WebPages.Razor.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\WebGrease.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\EntityFramework.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\EntityFramework.SqlServer.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\Microsoft.AspNet.Identity.Core.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\Microsoft.AspNet.Identity.Owin.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\Microsoft.Owin.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\Microsoft.Owin.Host.SystemWeb.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\Microsoft.Owin.Security.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\Microsoft.Owin.Security.Facebook.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\Microsoft.Owin.Security.Google.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\Microsoft.Owin.Security.OAuth.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\Microsoft.Owin.Security.Twitter.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\Newtonsoft.Json.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\System.Web.Helpers.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\System.Web.Mvc.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\System.Web.Optimization.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\System.Web.Razor.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\System.Web.WebPages.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\System.Web.WebPages.Deployment.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\System.Web.WebPages.Razor.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\Antlr3.Runtime.pdb
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\obj\Debug\BlogPostWebsite.csproj.CopyComplete
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\obj\Debug\BlogPostWebsite.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\obj\Debug\BlogPostWebsite.pdb
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\obj\Debug\BlogPostWebsite.Migrations.init.resources
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\obj\Debug\BlogPostWebsite.csproj.GenerateResource.cache
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\obj\Debug\BlogPostWebsite.Migrations.initTagAdded.resources
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\obj\Debug\BlogPostWebsite.csprojAssemblyReference.cache
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\obj\Debug\BlogPostWebsite.Migrations.initIsApprovedAdded.resources
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\obj\Debug\BlogPostWebsite.Migrations.initCategoryDataAdded.resources
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\obj\Debug\BlogPostWebsite.Migrations.initdateTimeAcceptNull.resources
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\BlogPostWebsite.dll.config
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\BlogPostWebsite.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\BlogPostWebsite.pdb
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\roslyn\csc.exe
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\roslyn\csc.exe.config
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\roslyn\csc.rsp
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\roslyn\csi.exe
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\roslyn\csi.rsp
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\roslyn\System.AppContext.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\roslyn\vbc.exe
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\roslyn\vbc.exe.config
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\roslyn\vbc.rsp
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\roslyn\VBCSCompiler.exe
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\Antlr3.Runtime.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\EntityFramework.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\EntityFramework.SqlServer.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\Microsoft.Owin.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\Microsoft.Owin.Security.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\Newtonsoft.Json.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\Owin.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\System.Web.Helpers.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\System.Web.Mvc.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\System.Web.Optimization.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\System.Web.Razor.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\System.Web.WebPages.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\System.Web.WebPages.Razor.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\WebGrease.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\EntityFramework.xml
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\EntityFramework.SqlServer.xml
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\Microsoft.Owin.xml
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\Microsoft.Owin.Security.xml
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\Newtonsoft.Json.xml
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\System.Web.Helpers.xml
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\System.Web.Mvc.xml
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\System.Web.Optimization.xml
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\System.Web.Razor.xml
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\System.Web.WebPages.xml
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\System.Web.WebPages.Razor.xml
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\Antlr3.Runtime.pdb
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\obj\Debug\BlogPostWebsite.csprojAssemblyReference.cache
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\obj\Debug\BlogPostWebsite.Migrations.init.resources
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\obj\Debug\BlogPostWebsite.Migrations.initTagAdded.resources
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\obj\Debug\BlogPostWebsite.Migrations.initIsApprovedAdded.resources
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\obj\Debug\BlogPostWebsite.Migrations.initCategoryDataAdded.resources
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\obj\Debug\BlogPostWebsite.Migrations.initdateTimeAcceptNull.resources
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\obj\Debug\BlogPostWebsite.csproj.GenerateResource.cache
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\obj\Debug\BlogPostWebsite.csproj.CoreCompileInputs.cache
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\obj\Debug\BlogPostWebsite.csproj.CopyComplete
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\obj\Debug\BlogPostWebsite.dll
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\obj\Debug\BlogPostWebsite.pdb
+C:\Users\Game Machine\Desktop\SharedProject\BlogPostWebsite-New\obj\Debug\BlogPostWebsite.Migrations.dates.resources
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\BlogPostWebsite.dll.config
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\BlogPostWebsite.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\BlogPostWebsite.pdb
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\roslyn\csc.exe
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\roslyn\csc.exe.config
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\roslyn\csc.rsp
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\roslyn\csi.exe
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\roslyn\csi.rsp
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\roslyn\Microsoft.CodeAnalysis.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\roslyn\Microsoft.CSharp.Core.targets
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\roslyn\Microsoft.VisualBasic.Core.targets
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\roslyn\System.AppContext.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\roslyn\System.Collections.Immutable.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\roslyn\System.Diagnostics.StackTrace.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\roslyn\System.IO.FileSystem.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\roslyn\System.IO.FileSystem.Primitives.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\roslyn\System.Reflection.Metadata.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\roslyn\vbc.exe
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\roslyn\vbc.exe.config
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\roslyn\vbc.rsp
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\roslyn\VBCSCompiler.exe
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\roslyn\VBCSCompiler.exe.config
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\Antlr3.Runtime.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\EntityFramework.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\EntityFramework.SqlServer.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\Microsoft.AspNet.Identity.Core.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\Microsoft.AspNet.Identity.Owin.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\Microsoft.Owin.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\Microsoft.Owin.Host.SystemWeb.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\Microsoft.Owin.Security.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\Microsoft.Owin.Security.Facebook.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\Microsoft.Owin.Security.Google.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\Microsoft.Owin.Security.OAuth.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\Microsoft.Owin.Security.Twitter.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\Microsoft.Web.Infrastructure.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\Newtonsoft.Json.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\Owin.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\System.Web.Helpers.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\System.Web.Mvc.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\System.Web.Optimization.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\System.Web.Razor.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\System.Web.WebPages.Deployment.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\System.Web.WebPages.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\System.Web.WebPages.Razor.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\WebGrease.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\EntityFramework.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\EntityFramework.SqlServer.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\Microsoft.AspNet.Identity.Core.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\Microsoft.AspNet.Identity.Owin.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\Microsoft.Owin.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\Microsoft.Owin.Host.SystemWeb.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\Microsoft.Owin.Security.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\Microsoft.Owin.Security.Facebook.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\Microsoft.Owin.Security.Google.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\Microsoft.Owin.Security.OAuth.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\Microsoft.Owin.Security.Twitter.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\Newtonsoft.Json.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\System.Web.Helpers.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\System.Web.Mvc.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\System.Web.Optimization.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\System.Web.Razor.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\System.Web.WebPages.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\System.Web.WebPages.Deployment.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\System.Web.WebPages.Razor.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\Antlr3.Runtime.pdb
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\obj\Debug\BlogPostWebsite.csprojAssemblyReference.cache
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\obj\Debug\BlogPostWebsite.Migrations.init.resources
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\obj\Debug\BlogPostWebsite.Migrations.initTagAdded.resources
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\obj\Debug\BlogPostWebsite.Migrations.initIsApprovedAdded.resources
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\obj\Debug\BlogPostWebsite.Migrations.initCategoryDataAdded.resources
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\obj\Debug\BlogPostWebsite.Migrations.initdateTimeAcceptNull.resources
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\obj\Debug\BlogPostWebsite.Migrations.dates.resources
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\obj\Debug\BlogPostWebsite.csproj.GenerateResource.cache
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\obj\Debug\BlogPostWebsite.csproj.CopyComplete
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\obj\Debug\BlogPostWebsite.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\obj\Debug\BlogPostWebsite.pdb
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\obj\Debug\BlogPostWebsite.Migrations.initExpirationChange.resources
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\PagedList.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\PagedList.Mvc.dll
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\PagedList.xml
+\\Mac\Home\Documents\GitHub\BlogPostWebsite-New\BlogPostWebsite-New\bin\PagedList.Mvc.xml

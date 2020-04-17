@@ -1,0 +1,29 @@
+﻿@model List<BlogPostWebsite.Models.PostViewModel>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron alert-info">
+    <h1>Blogs..</h1>
+    <p class="lead"></p>
+</div>
+
+<div class="row">
+    <div class="col-md-12" style="padding-bottom:30px;">
+        <hr />
+        <h3>All Blogs</h3>
+    </div>
+</div>
+
+<div class="row">
+    @if (Model != null)
+    {
+        foreach (var item in Model)
+        {
+             <div class="IndividualPostDiv col-sm-12">
+               
+       
+            </div>
+        }
+    }
+</div>

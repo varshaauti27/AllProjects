@@ -1,0 +1,135 @@
+﻿<div id="QuickSearchDiv" class="row">
+    <div class="row form-group form-horizontal col-sm-12">
+        Quick Search
+    </div>
+
+    <div class="row form-group col-sm-12">
+        <div class="col-sm-3">
+            <input type="text" class="form-control" id="SearchText-text" placeholder="Enter make model or year" />
+        </div>
+        <div>
+            <label style="padding-right:5px;">Price </label>
+        </div>
+        <div class="col-sm-2">
+            <select class="form-control" id="MinPrice-ddl">
+                <option value="-1">No Min</option>
+                <option value="10000">$10000</option>
+                <option value="20000">$20000</option>
+                <option value="30000">$30000</option>
+                <option value="40000">$40000</option>
+                <option value="50000">$50000</option>
+                <option value="60000">$60000</option>
+                <option value="70000">$70000</option>
+                <option value="80000">$80000</option>
+                <option value="90000">$90000</option>
+                <option value="100000">$100000</option>
+            </select>
+        </div>
+        <div class="col-sm-2">
+            <select class="form-control" id="MaxPrice-ddl">
+                <option value="-1">No Max</option>
+                <option value="10000">$10000</option>
+                <option value="20000">$20000</option>
+                <option value="30000">$30000</option>
+                <option value="40000">$40000</option>
+                <option value="50000">$50000</option>
+                <option value="60000">$60000</option>
+                <option value="70000">$70000</option>
+                <option value="80000">$80000</option>
+                <option value="90000">$90000</option>
+                <option value="100000">$100000</option>
+            </select>
+        </div>
+
+        <div>
+            <label style="padding-right:5px;">Year </label>
+        </div>
+        <div class="col-sm-2">
+            @{
+                List<int> years = new List<int>();
+                for (int i = 2000; i <= DateTime.Now.Year + 1; i++)
+                {
+                    years.Add(i);
+                }
+            }
+            <select class="form-control" id="MinYear-ddl">
+                <option value="-1">No Min</option>
+                @{
+                    foreach (var item in years)
+                    {
+                        <option value="@item">@item</option>
+                    }
+                }
+            </select>
+        </div>
+        <div class="col-sm-2">
+            <select class="form-control" id="MaxYear-ddl">
+                <option value="-1">No Max</option>
+                @{
+                    foreach (var item in years)
+                    {
+                        <option value="@item">@item</option>
+                    }
+                }
+            </select>
+        </div>
+    </div>
+    <div class="row form-group col-sm-12">
+        <div class="col-sm-2">
+            <button class="btn btn-primary" id="Search-button">Search</button>
+        </div>
+    </div>
+    </div>
+
+    <h3>Search Results</h3>
+    <div id="NoResultFoundDiv" style="display:none">
+        <span><b>No results found!!!</b></span>
+    </div>
+    <div id="SearchResultDiv">
+
+    </div>
+
+    <div id="VehicleTemplate" class="VehicleTemplateDiv row" style="display:none">
+        <div class="row col-sm-12">
+            <label id="vehicle-Heading"></label>
+        </div>
+        <div class="row col-sm-12">
+            <div class="col-sm-3">
+                <img src="~/Images/icon.png" id="vehicle-Image" class="VehicleTileImage" />
+            </div>
+            <div class="col-md-3">
+                <div>
+                    <span><b>Body Style: </b><span id="vehicle-BodyStyle"></span></span>
+                </div>
+                <div>
+                    <span><b>Trans: </b><span id="vehicle-TransmissionText"></span></span>
+                </div>
+                <div>
+                    <span><b>Color: </b><span id="vehicle-ExteriorColor"></span></span>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div>
+                    <span><b>Interior: </b><span id="vehicle-InteriorColor"></span></span>
+                </div>
+                <div>
+                    <span><b>Mileage: </b><span id="vehicle-Mileage"></span></span>
+                </div>
+                <div>
+                    <span><b>VIN #: </b><span id="vehicle-Vin"></span></span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div>
+                    <span><b>Sale Price: </b><span id="vehicle-SalesPrice"></span></span>
+                </div>
+                <div>
+                    <span><b>MRSP: </b><span id="vehicle-MSRP"></span></span>
+                </div>
+                <div>
+                    <a class="btn btn-primary" id="control-button"></a>
+                </div>
+            </div>
+        </div>
+    </div>

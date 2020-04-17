@@ -1,0 +1,65 @@
+﻿@model CarDealership.UI.Models.InventoryReportViewModel
+@{
+    ViewBag.Title = "Inventory";
+}
+
+<h2>Inventory</h2>
+<hr />
+
+<h4>New Vehicles</h4>
+<table class="table table-hover table-bordered table-condensed table-striped col-sm-8">
+    <thead class="thead-dark">
+        <tr>
+            <th>Year</th>
+            <th>Make</th>
+            <th>Model</th>
+            <th>Count</th>
+            <th>Stock Value</th>
+        </tr>
+    </thead>
+
+    @if (Model != null)
+    {
+        <tbody>
+            @foreach (var item in Model.NewInventory)
+            {
+                <tr>
+                    <td>@item.Year</td>
+                    <td>@item.Make</td>
+                    <td>@item.Model</td>
+                    <td>@item.Count</td>
+                    <td>$@item.StockValue</td>
+                </tr>
+            }
+        </tbody>
+    }
+</table>
+<hr />
+
+<h4>Old Vehicles</h4>
+<table class="table table-hover table-bordered table-condensed table-striped col-sm-8">
+    <thead class="thead-dark">
+        <tr>
+            <th>Year</th>
+            <th>Make</th>
+            <th>Model</th>
+            <th>Count</th>
+            <th>Stock Value</th>
+        </tr>
+    </thead>
+    @if (Model != null)
+    {
+        <tbody>
+            @foreach (var item in Model.OldInventory)
+            {
+                <tr>
+                    <td>@item.Year</td>
+                    <td>@item.Make</td>
+                    <td>@item.Model</td>
+                    <td>@item.Count</td>
+                    <td>$@item.StockValue</td>
+                </tr>
+            }
+        </tbody>
+    }
+</table>

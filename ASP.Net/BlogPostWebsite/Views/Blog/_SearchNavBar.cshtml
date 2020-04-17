@@ -1,0 +1,60 @@
+﻿<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarTextPost" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTextPost">
+        @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+        {
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="btn btn-primary" href="@Url.Action("Create", "Blog")">Create new post</a>
+                </li>
+            </ul>
+
+            <form action="/Blog/Search/" method="post">
+                <nav>
+                    <button type="submit"
+                            id="search-button"
+                            class="btn btn-secondary badge-pill col-md-offset-2">
+                        Search
+                    </button>
+
+                    <select class="btn btn-secondary badge-pill col-sm-4 col-md-offset-2" id="search-select" name="SearchBy" style="width:200px" required>
+                        <option value="default" disabled selected hidden>Choose a Search Category</option>
+                        <option name="search-ByTag" value="Tag">Tag</option>
+                        <option name="search-ByCategory" value="Category">Category</option>
+                    </select>
+
+                    <input type="text" class="col-md-auto" size="15" id="search-term-text" name="SearchTerm" placeholder="Search Term" style="display:none">
+                    <select class="btn btn-secondary badge-pill col-md-offset-2" id="list-select" style="display:none" name="Category"></select>
+                </nav>
+            </form>
+        }
+        else
+        {
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+
+                </li>
+            </ul>
+            <form action="/Blog/Search/" method="post">
+                <nav>
+                    <button type="submit"
+                            id="search-button"
+                            class="btn btn-secondary badge-pill col-md-offset-2">
+                        Search
+                    </button>
+
+                    <select class="btn btn-secondary badge-pill col-sm-4 col-md-offset-2" id="search-select" name="SearchBy" style="width:200px" required>
+                        <option value="default" disabled selected hidden>Choose a Search Category</option>
+                        <option name="search-ByTag" value="Tag">Tag</option>
+                        <option name="search-ByCategory" value="Category">Category</option>
+                    </select>
+
+                    <input type="text" class="col-md-auto" size="15" id="search-term-text" name="SearchTerm" placeholder="Search Term" style="display:none" required>
+                    <select class="btn btn-secondary badge-pill col-md-offset-2" id="list-select" style="display:none" name="Category"></select>
+                </nav>
+            </form>
+        }
+    </div>
+</nav>

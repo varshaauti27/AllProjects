@@ -1,0 +1,53 @@
+﻿@model CarDealership.UI.Models.ModelViewModel
+@{
+    ViewBag.Title = "Model";
+}
+
+<h2>Model</h2>
+<hr />
+<div id="borderDiv">
+    @using (Html.BeginForm("Models", "Admin", FormMethod.Post,
+        new { @class = "form-horizontal", role = "form" }))
+    {
+        <div class="form-group row" style="padding-top:15px; padding-bottom:0px;padding-left:15px;">
+            @Html.LabelFor(m => m.Model.Name, new { @class = "control-label", @style = "font-weight:bold;" })
+            <div class="col-md-2">
+                @Html.TextBoxFor(m => m.Model.Name, new { @class = "form-control" })
+                <span class="text-danger">@Html.ValidationMessageFor(m => m.Model.Name)</span>
+            </div>
+
+            @Html.LabelFor(m => m.Model.MakeId, "Make", new { @class = "control-label", @style = "font-weight:bold;" })
+            <div class="col-md-2">
+                @Html.DropDownListFor(m => m.Model.MakeId, Model.MakeItems, "-Choose One-", new { @class = "form-control", id = "list-model" })
+                <span class="text-danger">@Html.ValidationMessageFor(m => m.Model.MakeId)</span>
+            </div>
+
+            <div class="col-md-2">
+                <input type="submit" class="btn btn-primary" value="Save" />
+            </div>
+        </div>
+    }
+</div>
+
+<div class="row col-sm-8" style="padding-top:30px;">
+    <table class="table table-hover table-bordered table-condensed" id="UsersWithRoles">
+        <thead class="thead-dark">
+            <tr>
+                <th>Model</th>
+                <th>Make</th>
+                <th>Date Added</th>
+                <th>User</th>
+            </tr>
+        </thead>
+        @foreach (var m in Model.ModelList)
+        {
+            <tr>
+                <td>@m.Name</td>
+                <td>@m.MakeName</td>
+                <td>@m.DateAdded.Date.ToShortDateString()</td>
+                <td>@m.UserName</td>
+            </tr>
+        }
+    </table>
+</div>
+

@@ -1,0 +1,48 @@
+﻿@model List<CarDealership.UI.Models.Vehicle>
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron alert-info">
+    <h1>BIG HUGE SALE!!!</h1>
+    <p class="lead">Supporting text and disclaimers</p>
+</div>
+
+<div class="row">
+    <div class="col-md-12" style="padding-bottom:30px;">
+        <hr />
+        <h3>Featured Vehicles</h3>
+    </div>
+</div>
+
+<div class="row">
+    @if (Model != null)
+    {
+        foreach (var item in Model)
+        {       
+            <div class="col-md-3 text-center">
+                <div class="FeatureTileDiv">
+                    @{
+                        var imageName = "icon.png";
+                        if (File.Exists(HttpContext.Current.Server.MapPath("~/Images/" + item.ImageFile)))
+                        {
+                            imageName = item.ImageFile;
+                        }
+                    }
+
+                    <a href="@Url.Action("Details","Inventory",new { id = item.Vin })">
+                        <img src="~/Images/@imageName" class="VehicleTileImage" />
+                    </a>
+
+                    <div>
+                        @item.Year @item.ModelName @item.MakeName
+                    </div>
+                    <div>
+                        $@item.MSRP
+                    </div>
+                </div>
+            </div>
+        }
+    }
+</div>

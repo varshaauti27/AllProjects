@@ -1,0 +1,18 @@
+﻿<h2>@ViewBag.Title</h2>
+
+<input type="hidden" id="IsNewVehicle" value="@ViewBag.IsNewVehicle" />
+<input type="hidden" id="pageName" value="@ViewBag.Page" />
+
+<a class="btn btn-primary" href="@Url.Action("AddVehicle","Admin")" style="margin-bottom:20px;">Add a new vehicle</a>
+
+@Html.Partial("_SearchPartial")
+
+@section scripts {
+    <script src="~/Scripts/VehicleSearch.js"></script>
+
+    <script>
+        var isAdmin = @User.IsInRole("Admin").ToString().ToLower();
+        var isSales = @User.IsInRole("Sales").ToString().ToLower();
+        var userAuthorized = @User.Identity.IsAuthenticated.ToString().ToLower();
+    </script>
+}

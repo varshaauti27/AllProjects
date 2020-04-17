@@ -1,0 +1,63 @@
+﻿@*@model IEnumerable<BlogPostWebsite.Models.PostViewModel>*@
+@model PagedList.IPagedList<BlogPostWebsite.Models.PostViewModel>
+@using PagedList.Mvc;
+
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="jumbotron alert-info">
+    <h1>Blogs..</h1>
+    <p class="lead"></p>
+</div>
+
+@Html.Partial("_SearchNavBar")
+
+
+<div class="row col-sm-12">
+    <div class="col-sm-12 text-right">
+        <span class="text-danger" id="errorMessages"></span>
+    </div>
+</div>
+<div class="col-sm-12">
+    <h3>All Blogs</h3>
+    <hr />
+</div>
+
+<div class="row col-sm-12">
+    @if (Model != null)
+    {
+        foreach (var item in Model)
+        {
+            <div class="post-info col-sm-12">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h4>@item.Post.Title</h4>
+                    <small>@item.AuthorName | @item.Post.DatePosted.ToShortDateString()</small>
+                </div>
+
+                <ul>
+                    <li>@Html.Raw(item.Post.Description)</li>
+                </ul>
+
+                @foreach (var c in item.Comments)
+                {
+                    <label><b>Comment :</b> @c.CommentText  </label>
+                    <label><b>CommentedBy :</b> @c.Name  </label>
+                }
+            </div>
+        }
+    }
+</div>
+    <br />
+    Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+    @Html.PagedListPager(Model, page => Url.Action("Index",
+        new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))
+
+
+@section Scripts {
+
+    <script src="~/Scripts/BlogSearch.js"></script>
+}

@@ -1,0 +1,109 @@
+﻿@model CarDealership.UI.Models.SpecialsViewModel
+@{
+    ViewBag.Title = "Specials";
+
+}
+<h2>@ViewBag.Title</h2>
+
+<div>
+    @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+    {
+        <div id="borderDiv">
+            <div class="form-horizontal">
+                <form class="form-horizontal" role="form" id="special-form" method="post" action="/Home/Specials">
+                    @Html.ValidationSummary()
+                    <div class="form-group row">
+                        @Html.LabelFor(m => m.Title, new { @class = "col-sm-2" })
+                        <div class="col-sm-auto">
+                            @Html.TextBoxFor(m => m.Title, new { @class = "form-control" })
+                            <span class="text-danger">@Html.ValidationMessageFor(m => m.Title)</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        @Html.LabelFor(m => m.Description, new { @class = "col-sm-2" })
+                        <div class="col-sm-auto">
+                            @Html.TextAreaFor(m => m.Description, new { @class = "form-control", @row = 3, @style = "resize: none;" })
+                            <span class="text-danger">@Html.ValidationMessageFor(m => m.Description)</span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            @*<button class="btn btn-primary" onclick="SaveSpecial()">Save</button>*@
+                            <button class="btn btn-primary">Save</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    }
+
+    @if (Model.Specials != null && Model.Specials.Count > 0)
+    {
+        foreach (var item in Model.Specials.ToList())
+        {
+            <div id="SpecialDiv">
+                <div class="form-group row col-sm-12">
+                    <div class="col-sm-1 text-right">
+
+                    </div>
+                    <div class="col-sm-8">
+                        <h4>@item.Name</h4>
+                    </div>
+                    @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                    {
+                        <div class="col-sm-3 text-right">
+                            @Html.ActionLink("Delete", "DeleteSpecials", "Home", new { id = item.Id }, new { @class = "btn btn-danger", id = "btnDelete" })
+                            @*<a class="btn btn-danger" href="@Url.Action("DeleteSpecials", "Home", new { id = item.Id })">Delete</a>*@
+                        </div>
+                    }
+                </div>
+                <div class="form-group row col-md-12">
+                    <div class="col-sm-1 text-right">
+
+                    </div>
+                    <div class="col-sm-auto">
+                        @item.Description
+                    </div>
+
+                </div>
+            </div>
+        }
+    }
+</div>
+
+
+@section scripts {
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $("#btnDelete").on("click", function (e) {
+                e.preventDefault();
+                var result = confirm("Are you sure you want to delete the special?");
+                if (result == true) {
+                    window.location.href = $(this).attr("href");
+                }
+            });
+
+        });
+
+function SaveSpecial() {
+debugger;
+var data = '@Html.Raw(Json.Encode(Model))';
+$.ajax({
+type: 'POST',
+// dataType: 'html', // this can be omitted - the ajax() function will work it out
+cache: false,
+url: '/Home/Specials',
+data: data,
+    success: function (data, textStatus, jqXHR) {
+
+},
+error: function (jqXHR, textStatus, errorThrown) {
+}
+});
+}
+
+    </script>
+}
