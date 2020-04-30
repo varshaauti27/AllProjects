@@ -29,25 +29,37 @@
     }
 </div>
 
-<div class="row col-sm-8" style="padding-top:30px;">
-    <table class="table table-hover table-bordered table-condensed" id="UsersWithRoles">
-        <thead class="thead-dark">
-            <tr>
-                <th>Model</th>
-                <th>Make</th>
-                <th>Date Added</th>
-                <th>User</th>
-            </tr>
-        </thead>
-        @foreach (var m in Model.ModelList)
-        {
-            <tr>
-                <td>@m.Name</td>
-                <td>@m.MakeName</td>
-                <td>@m.DateAdded.Date.ToShortDateString()</td>
-                <td>@m.UserName</td>
-            </tr>
-        }
-    </table>
+<div class="row" style="padding-top:30px;">
+    <div class="col-sm-8">
+        <table class="table table-hover table-bordered table-condensed table-striped" id="ModelTable">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Model</th>
+                    <th>Make</th>
+                    <th>Date Added</th>
+                    <th>User</th>
+                </tr>
+            </thead>
+            @foreach (var m in Model.ModelList)
+            {
+                <tr>
+                    <td>@m.Name</td>
+                    <td>@m.MakeName</td>
+                    <td>@m.DateAdded.Date.ToShortDateString()</td>
+                    <td>@m.UserName</td>
+                </tr>
+            }
+        </table>
+    </div>
 </div>
 
+@section scripts {
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#ModelTable').DataTable();
+        });
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.10/css/jquery.dataTables.min.css">
+    <script type="text/javascript" language="javascript" src="//cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+}

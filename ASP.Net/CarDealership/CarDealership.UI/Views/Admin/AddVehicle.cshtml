@@ -102,9 +102,16 @@
 
     <div class="form-group row">
         <div class="col-sm-4">
-            @Html.HiddenFor(m=>m.Vehicle.ImageFile)
+            @Html.HiddenFor(m => m.Vehicle.ImageFile)
+            @{
+                if (!File.Exists(HttpContext.Current.Server.MapPath("~/Images/" + Model.Vehicle.ImageFile)))
+                {
+                    Model.Vehicle.ImageFile = "icon.png";
+                }
+            }
             <label>Picture </label>
-            <input type="file" title="Upload image" id="file" name="file" accept="image/png, image/jpeg, image/jpg" , required="required" />
+            <img src="~/Images/@Model.Vehicle.ImageFile" class="VehicleTileImage" style="margin:10px;" width="100" height="100" id="imagePreview" />
+            <input type="file" title="Upload image" id="file" name="file" accept="image/png, image/jpeg, image/jpg" , onchange="ShowImagePreview(this,document.getElementById('imagePreview'))" required="required" />
             <span class="text-danger">@Html.ValidationMessageFor(m => m.Vehicle.ImageFile)</span>
         </div>
     </div>

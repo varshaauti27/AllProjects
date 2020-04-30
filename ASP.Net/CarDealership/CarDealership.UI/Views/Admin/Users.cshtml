@@ -4,8 +4,8 @@
 }
 
 <h2>Users</h2>
-<hr/>
-<div class="panel panel-primary col-sm-8">
+<hr />
+<div class="panel panel-primary col-sm-10">
     <div class="panel-heading">
         <h3 class="box-title">
             <a class="btn btn-primary" href="@Url.Action("AddUser","Admin")">Add a new User</a>
@@ -34,15 +34,14 @@
         </table>
     </div>
 
-    <div class="panel-footer">
+    @*<div class="panel-footer">
         <p class="box-title"><b>Total Users till @String.Format("{0 : dddd, MMMM d, yyyy}", DateTime.Now)  : </b><span class="label label-primary">@Model.Count()</span></p>
-    </div>
+    </div>*@
 </div>
 
 @section scripts{
 
     <script>
-
         $(function () {
             $('#UsersWithRoles').DataTable({
                 "paging": true,
@@ -54,5 +53,8 @@
             });
         });
     </script>
+
+    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.10/css/jquery.dataTables.min.css">
+    <script type="text/javascript" language="javascript" src="//cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
 }
 

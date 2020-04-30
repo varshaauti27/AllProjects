@@ -42,7 +42,7 @@ namespace CarDealership.UI.Data.Repositories
                 sqlCommand.Dispose();
                 sqlConnection.Close();
             }
-            catch
+            catch(Exception ex)
             {
                 if (sqlCommand != null)
                 {

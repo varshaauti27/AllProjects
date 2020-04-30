@@ -49,7 +49,7 @@ namespace CarDealership.UI.Controllers
         [HttpPost]
         public JsonResult SearchVehicles(SearchRequest searchRequest)
         {
-            return Json(_repository.SearchVehicles(searchRequest), JsonRequestBehavior.AllowGet);
+             return Json(_repository.SearchVehicles(searchRequest), JsonRequestBehavior.AllowGet);
         }
     }
 }

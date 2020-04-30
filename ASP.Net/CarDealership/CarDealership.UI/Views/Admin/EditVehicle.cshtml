@@ -74,7 +74,7 @@
         </div>
         <div class="col-sm-4">
             <label>VIN# </label>
-            @Html.TextBoxFor(m => m.Vehicle.Vin, new { @class = "form-control", @maxLength = 17 })
+            @Html.TextBoxFor(m => m.Vehicle.Vin, new { @class = "form-control", @maxLength = 17 ,@readonly="readonly"})
             <span class="text-danger">@Html.ValidationMessageFor(m => m.Vehicle.Vin)</span>
         </div>
     </div>
@@ -82,7 +82,7 @@
     <div class="form-group row">
         <div class="col-sm-4">
             <label>MSRP </label>
-            @Html.TextBoxFor(m => m.Vehicle.MSRP, new { @class = "form-control", @type = "number", @min = 1 })
+            @Html.TextBoxFor(m => m.Vehicle.MSRP , new { @class = "form-control", @type = "number", @min = 1 })
             <span class="text-danger">@Html.ValidationMessageFor(m => m.Vehicle.MSRP)</span>
         </div>
         <div class="col-sm-4">
@@ -101,7 +101,6 @@
     </div>
 
     <div class="form-group row">
-        <label>Replace Picture </label>
         <div class="col-sm-4">
             @{
                 if (!File.Exists(HttpContext.Current.Server.MapPath("~/Images/" + Model.Vehicle.ImageFile)))
@@ -110,8 +109,9 @@
                 }
             }
             @Html.HiddenFor(m => m.Vehicle.ImageFile)
-            <img src="~/Images/@Model.Vehicle.ImageFile" class="VehicleTileImage" />
-            <input type="file" title="Upload image" id="file" name="file" accept="image/png, image/jpeg, image/jpg" />
+            <label>Replace Picture </label>
+            <img src="~/Images/@Model.Vehicle.ImageFile" class="VehicleTileImage" id="imagePreview" width="100" height="100" />
+            <input type="file" title="Upload image" id="file" name="file" accept="image/png, image/jpeg, image/jpg" onchange="ShowImagePreview(this,document.getElementById('imagePreview'))" />
             <span class="text-danger">@Html.ValidationMessageFor(m => m.Vehicle.ImageFile)</span>
         </div>
     </div>

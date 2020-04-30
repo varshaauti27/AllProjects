@@ -68,6 +68,7 @@ namespace CarDealership.UI.Controllers
             if (ModelState.IsValid)
             {
                 _makeRepository.AddMake(makeViewModel.Make);
+                return RedirectToAction("Makes");
             }
             return View(makeViewModel);
         }
@@ -105,7 +106,7 @@ namespace CarDealership.UI.Controllers
             if (ModelState.IsValid)
             {
                 _modelRepository.AddModel(modelViewModel.Model);
-                return RedirectToAction("Models", "Admin");
+                return RedirectToAction("Models");
             }
         
             modelViewModel.ModelList = _modelRepository.GetAllModels();
@@ -416,22 +417,27 @@ namespace CarDealership.UI.Controllers
             addEditVehicleVM.SetTransmissionItems(_transmissionRepository.GetAllTransmissions());
             addEditVehicleVM.SetTypeItems();
 
-            addEditVehicleVM.MakeId = Convert.ToInt32(addEditVehicleVM.MakeItems.Find(i => i.Text.Equals(addEditVehicleVM.Vehicle.MakeName)).Value);
-            addEditVehicleVM.ModelId = Convert.ToInt32(addEditVehicleVM.ModelItems.Find(i => i.Text.Equals(addEditVehicleVM.Vehicle.ModelName)).Value);
-            addEditVehicleVM.Vehicle.BodyStyle = addEditVehicleVM.BodyStyleItems.Find(i => i.Text.Equals(addEditVehicleVM.Vehicle.BodyStyle)).Value;
-            addEditVehicleVM.Vehicle.InteriorColor = addEditVehicleVM.ColorItems.Find(i => i.Text.Equals(addEditVehicleVM.Vehicle.InteriorColor)).Value;
-            addEditVehicleVM.Vehicle.ExteriorColor = addEditVehicleVM.ColorItems.Find(i => i.Text.Equals(addEditVehicleVM.Vehicle.ExteriorColor)).Value;
-            addEditVehicleVM.Vehicle.TransmissionText = addEditVehicleVM.TransmissionItems.Find(i => i.Text.Equals(addEditVehicleVM.Vehicle.TransmissionText)).Value;
+            if (addEditVehicleVM.Vehicle != null)
+            {
+                addEditVehicleVM.MakeId = Convert.ToInt32(addEditVehicleVM.MakeItems.Find(i => i.Text.Equals(addEditVehicleVM.Vehicle.MakeName)).Value);
+                addEditVehicleVM.ModelId = Convert.ToInt32(addEditVehicleVM.ModelItems.Find(i => i.Text.Equals(addEditVehicleVM.Vehicle.ModelName)).Value);
+                addEditVehicleVM.Vehicle.BodyStyle = addEditVehicleVM.BodyStyleItems.Find(i => i.Text.Equals(addEditVehicleVM.Vehicle.BodyStyle)).Value;
+                addEditVehicleVM.Vehicle.InteriorColor = addEditVehicleVM.ColorItems.Find(i => i.Text.Equals(addEditVehicleVM.Vehicle.InteriorColor)).Value;
+                addEditVehicleVM.Vehicle.ExteriorColor = addEditVehicleVM.ColorItems.Find(i => i.Text.Equals(addEditVehicleVM.Vehicle.ExteriorColor)).Value;
+                addEditVehicleVM.Vehicle.TransmissionText = addEditVehicleVM.TransmissionItems.Find(i => i.Text.Equals(addEditVehicleVM.Vehicle.TransmissionText)).Value;
 
-            if (addEditVehicleVM.Vehicle.IsNew)
-            {
-                addEditVehicleVM.TypeId = 1;
+                if (addEditVehicleVM.Vehicle.IsNew)
+                {
+                    addEditVehicleVM.TypeId = 1;
+                }
+                else
+                {
+                    addEditVehicleVM.TypeId = 2;
+                }
+
+                return View(addEditVehicleVM);
             }
-            else
-            {
-                addEditVehicleVM.TypeId = 2;
-            }
-            return View(addEditVehicleVM);
+            return RedirectToAction("Vehicles");
         }
 
         [HttpPost]

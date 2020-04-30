@@ -42,6 +42,7 @@ namespace CarDealership.UI.Data.Repositories
 
                 sqlCommand.Parameters.AddWithValue("@Vin", vehicle.Vin);
                 sqlCommand.Parameters.AddWithValue("@ModelName", vehicle.ModelName);
+                sqlCommand.Parameters.AddWithValue("@MakeName", vehicle.MakeName);
                 sqlCommand.Parameters.AddWithValue("@Year", vehicle.Year);
                 sqlCommand.Parameters.AddWithValue("@New", Convert.ToByte(vehicle.IsNew));
                 sqlCommand.Parameters.AddWithValue("@Feature", Convert.ToByte(vehicle.IsFeaturedVehicle));
@@ -125,6 +126,7 @@ namespace CarDealership.UI.Data.Repositories
 
                 sqlCommand.Parameters.AddWithValue("@Vin", vehicle.Vin);
                 sqlCommand.Parameters.AddWithValue("@ModelName", vehicle.ModelName);
+                sqlCommand.Parameters.AddWithValue("@MakeName", vehicle.MakeName);
                 sqlCommand.Parameters.AddWithValue("@Year", vehicle.Year);
                 sqlCommand.Parameters.AddWithValue("@New", Convert.ToByte(vehicle.IsNew));
                 sqlCommand.Parameters.AddWithValue("@Feature", Convert.ToByte(vehicle.IsFeaturedVehicle));
@@ -178,16 +180,14 @@ namespace CarDealership.UI.Data.Repositories
                     // while there is another record present
                     while (reader.Read())
                     {
-                        var new1 = reader["New"].ToString();
-
                         Vehicle vehicle = new Vehicle
                         {
                             Vin = reader["Vin"].ToString(),
                             IsNew = BitConverter.ToBoolean((byte[])reader["New"], 0), 
                             Year = Convert.ToInt32(reader["Year"]),
                             Mileage = Convert.ToInt32(reader["Mileage"]),
-                            SalesPrice = Convert.ToDecimal(reader["SalesPrice"]),
-                            MSRP = Convert.ToDecimal(reader["MSRP"]),
+                            SalesPrice = decimal.Round(Convert.ToDecimal(reader["SalesPrice"]),2),
+                            MSRP = decimal.Round(Convert.ToDecimal(reader["MSRP"]),2),
                             Description = reader["VehicleDescription"].ToString(),
                             ImageFile = reader["ImageFile"].ToString(),
                             IsFeaturedVehicle = BitConverter.ToBoolean((byte[])reader["Feature"], 0),
@@ -200,7 +200,6 @@ namespace CarDealership.UI.Data.Repositories
                             InteriorColor = reader["Interior Color"].ToString(),
                             ExteriorColor = reader["Exterior Color"].ToString(),
                         };
-                        
                         _allVehicle.Add(vehicle);
                     }
                 }
@@ -246,8 +245,8 @@ namespace CarDealership.UI.Data.Repositories
                             IsNew = BitConverter.ToBoolean((byte[])reader["New"], 0),
                             Year = Convert.ToInt32(reader["Year"]),
                             Mileage = Convert.ToInt32(reader["Mileage"]),
-                            SalesPrice = Convert.ToDecimal(reader["SalesPrice"]),
-                            MSRP = Convert.ToDecimal(reader["MSRP"]),
+                            SalesPrice = decimal.Round(Convert.ToDecimal(reader["SalesPrice"]),2),
+                            MSRP = decimal.Round(Convert.ToDecimal(reader["MSRP"]),2),
                             Description = reader["VehicleDescription"].ToString(),
                             ImageFile = reader["ImageFile"].ToString(),
                             IsFeaturedVehicle = BitConverter.ToBoolean((byte[])reader["Feature"], 0),
@@ -374,8 +373,8 @@ namespace CarDealership.UI.Data.Repositories
                             IsNew = BitConverter.ToBoolean((byte[])reader["New"], 0),
                             Year = Convert.ToInt32(reader["Year"]),
                             Mileage = Convert.ToInt32(reader["Mileage"]),
-                            SalesPrice = Convert.ToDecimal(reader["SalesPrice"]),
-                            MSRP = Convert.ToDecimal(reader["MSRP"]),
+                            SalesPrice = decimal.Round(Convert.ToDecimal(reader["SalesPrice"]),2),
+                            MSRP = decimal.Round(Convert.ToDecimal(reader["MSRP"]),2),
                             Description = reader["VehicleDescription"].ToString(),
                             ImageFile = reader["ImageFile"].ToString(),
                             IsFeaturedVehicle = BitConverter.ToBoolean((byte[])reader["Feature"], 0),

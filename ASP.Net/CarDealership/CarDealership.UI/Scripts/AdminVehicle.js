@@ -22,6 +22,9 @@
         }
     });
 
+    function setTwoNumberDecimal(event) {
+        this.value = parseFloat(this.value).toFixed(2);
+    }
 });
 
 function GetModelsOnMakeChange() {
@@ -37,4 +40,14 @@ function GetModelsOnMakeChange() {
             alert(error);
         }
     });
+}
+
+function ShowImagePreview(imageUploader, previewImage) {
+    if (imageUploader.files && imageUploader.files[0]) {
+        var reader = new FileReader();
+        reader.onload = function (e) {
+            $(previewImage).attr('src', e.target.result);
+        }
+        reader.readAsDataURL(imageUploader.files[0]);
+    }
 }

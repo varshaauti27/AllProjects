@@ -32,7 +32,7 @@ namespace CarDealership.UI.Data.Repositories
                 };
 
                 sqlCommand.Parameters.AddWithValue("@MakeId",model.MakeId);
-                sqlCommand.Parameters.AddWithValue("@Name", model.MakeName);
+                sqlCommand.Parameters.AddWithValue("@Name", model.Name);
                 sqlCommand.Parameters.AddWithValue("@UserId", model.UserId);
                 sqlCommand.Parameters.AddWithValue("@DateAdded", model.DateAdded);
 

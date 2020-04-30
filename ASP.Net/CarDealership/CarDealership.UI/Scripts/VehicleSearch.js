@@ -1,21 +1,23 @@
-﻿$(document).ready(function () {
-    var pageType = $("#pageName").val();
+﻿var pageType = $("#pageName").val();
 
-    //if (pageType === "Inventory") {
-    //    $('#control-button').text('Details');
-    //}
-    //if (pageType === "Sales") {
-    //    $('#control-button').text('Purchase');
-    //}
-    //if (pageType === "Admin") {
-    //    $('#control-button').text('Edit');
-    //}
+$(document).ready(function () {
 
-    $("#Search-button").on("click", function () {
-        //alert($('#IsNewVehicle').val());
-        //alert(userAuthorized);
-        //alert(isAdmin);
+    if (pageType === "Inventory") {
+        //$('#control-button').text('Details');
+        $('#control-button').append('<i class="fa fa-info fa-lg"></i>')
+    }
+    if (pageType === "Sales") {
+        //$('#control-button').text('Purchase');
+        $('#control-button').append('<i class="fa fa-shopping-cart fa-lg"></i>')
+    }
+    if (pageType === "Admin") {
+        //$('#control-button').text('Edit');
+        $('#control-button').append('<i class="fa fa-pencil fa-lg"></i>')
+    }
+});
 
+function GetSearchData() {
+ 
         var isNewVehicle = $("#IsNewVehicle").val();
 
         var data = {};
@@ -38,6 +40,7 @@
         $.ajax({
             type: "POST",
             url: "/Inventory/SearchVehicles",
+            //data: { SearchRequest: data, pageNumber: pageNum, pageSize: pageSize },
             data: data,
             success: function (result) {
                 if (result.length > 0) {
@@ -67,25 +70,26 @@
 
                     if (pageType === "Inventory") {
                         $(div).find("#control-button").attr("href", "/Inventory/Details/" + result[i].Vin);
-                        $('#control-button').text('Details');
+                        //$('#control-button').text('Details');
                     }
                     else {
                         if (userAuthorized && (isAdmin || isSales)) {
                             if (pageType === "Sales") {
                                 $(div).find("#control-button").attr("href", "/Sales/Purchase/" + result[i].Vin);
-                                $('#control-button').text('Purchase');
-                            } else if (pageType === "Admin"){
+                                //$('#control-button').text('Purchase');
+                            } else if (pageType === "Admin") {
                                 $(div).find("#control-button").attr("href", "/Admin/EditVehicle/" + result[i].Vin);
-                                $('#control-button').text('Edit');
+                                //$('#control-button').text('Edit');
                             }
                         }
                     }
                     $("#SearchResultDiv").append(div);
                 }
+                $.notify("Search Successfully!!", "success");
             },
             error: function (error) {
                 alert(JSON.stringify(error));
+                $.notify("Error in searching", "error");
             }
         });
-    });
-});
+}

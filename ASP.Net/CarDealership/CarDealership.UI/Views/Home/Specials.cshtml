@@ -22,7 +22,7 @@
 
                     <div class="form-group row">
                         @Html.LabelFor(m => m.Description, new { @class = "col-sm-2" })
-                        <div class="col-sm-auto">
+                        <div class="col-sm-10">
                             @Html.TextAreaFor(m => m.Description, new { @class = "form-control", @row = 3, @style = "resize: none;" })
                             <span class="text-danger">@Html.ValidationMessageFor(m => m.Description)</span>
                         </div>
@@ -54,7 +54,7 @@
                     @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
                     {
                         <div class="col-sm-3 text-right">
-                            @Html.ActionLink("Delete", "DeleteSpecials", "Home", new { id = item.Id }, new { @class = "btn btn-danger", id = "btnDelete" })
+                            @Html.ActionLink(" ", "DeleteSpecials", "Home", new { id = item.Id }, new { @class = "btn btn-danger fa fa-trash fa-lg btnDelete", id = "btnDelete",@pkNo = item.Id })
                             @*<a class="btn btn-danger" href="@Url.Action("DeleteSpecials", "Home", new { id = item.Id })">Delete</a>*@
                         </div>
                     }
@@ -75,10 +75,12 @@
 
 
 @section scripts {
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
+
     <script type="text/javascript">
 
         $(document).ready(function () {
-            $("#btnDelete").on("click", function (e) {
+            $(".btnDelete").on("click", function (e) {
                 e.preventDefault();
                 var result = confirm("Are you sure you want to delete the special?");
                 if (result == true) {
@@ -104,6 +106,5 @@ error: function (jqXHR, textStatus, errorThrown) {
 }
 });
 }
-
     </script>
 }

@@ -15,9 +15,9 @@ function GetSalesReport() {
     var fromDate = $("#from-datepicker").val();
     var toDate = $("#to-datepicker").val();
 
-    alert("User Id" + userId);
-    alert("From Date" + fromDate);
-    alert("To Date" + toDate);
+    //alert("User Id" + userId);
+    //alert("From Date" + fromDate);
+    //alert("To Date" + toDate);
 
     $.ajax({
         type: "GET",
@@ -34,9 +34,12 @@ function GetSalesReport() {
             else {
                 $('#noResultDiv').show();
             }
+            $.notify("Generated report Successfully!!", "success");
+            $('#searchTable').DataTable();
         },
         error: function (error) {
             alert(JSON.stringify(error));
+            $.notify("Error in generating report!!", "error");
         }
     });
 }

@@ -37,7 +37,7 @@ namespace Hangman.UI
                             Console.SetCursorPosition(50, Console.WindowHeight / 3 + 8);
 
                             Console.Write(" Enter Character : ");
-                            if (char.TryParse(Console.ReadLine(), out c))
+                            if (char.TryParse(Console.ReadLine().ToUpper(), out c))
                             {
                                 if (!(Regex.IsMatch(c.ToString(), "^[a-zA-Z]*$")))
                                 {
@@ -146,14 +146,15 @@ namespace Hangman.UI
         private void DisplayLogo()
         {
             string logo = @"
-                              _    _                                               
-                             | |  | |                                              
-                             | |__| |  __ _  _ __    __ _  _ __ ___    __ _  _ __  
-                             |  __  | / _` || '_ \  / _` || '_ ` _ \  / _` || '_ \ 
-                             | |  | || (_| || | | || (_| || | | | | || (_| || | | |
-                             |_|  |_| \__,_||_| |_| \__, ||_| |_| |_| \__,_||_| |_|
-                                         __/ |                         
-                                        |___/                                        ";
+                                     _    _                                         
+                                    | |  | |                                        
+                                    | |__| | __ _ _ __   __ _ _ __ ___   __ _ _ __  
+                                    |  __  |/ _` | '_ \ / _` | '_ ` _ \ / _` | '_ \ 
+                                    | |  | | (_| | | | | (_| | | | | | | (_| | | | |
+                                    |_|  |_|\__,_|_| |_|\__, |_| |_| |_|\__,_|_| |_|
+                                                         __/ |                      
+                                                        |___/                       
+";
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine(logo);
             Console.ForegroundColor = ConsoleColor.White;

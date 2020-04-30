@@ -18,7 +18,7 @@ namespace HangMan.BLL
         public GameManager(IChoiceGetter concrete)
         {
             _chooser = concrete;
-            _guessWord = _chooser.GetChoice().ToString();
+            _guessWord = _chooser.GetChoice().ToString().ToUpper();
             _tempString = new char[_guessWord.Length];
 
             for (int i = 0; i < _guessWord.Length; i++)

@@ -4,7 +4,7 @@
 }
 
 <h2>Sales Report</h2>
-<hr/>
+<hr />
 <div id="borderDiv" class="row">
     <div class="row form-group form-horizontal col-sm-12">
         Filters
@@ -24,44 +24,52 @@
             <input type="text" class="form-control" id="to-datepicker" placeholder="Select To Date" readonly>
         </div>
         <div class="col-md-4" style="padding-top:30px;">
-            <input type="submit" class="btn btn-primary" value="Search" onclick="GetSalesReport();" />
+            <button class="btn btn-primary fa fa-search" id="Search-button" onclick="GetSalesReport();">Search</button>
+            @*<input type="submit" class="btn btn-primary fa fa-search" value="Search" onclick="" />*@
         </div>
     </div>
 
 </div>
 
-<div class="row col-sm-12">
+<div class="row">
     <h3>Search Result</h3>
 </div>
 
-<div id="searchResultDiv" class="row col-sm-8" style="display:none">
-    <table id="searchTable" class="table table-hover table-bordered table-condensed table-striped">
-        <thead class="thead-dark">
-            <tr>
-                <th width="40%">User</th>
-                <th width="20%">Total Sales</th>
-                <th width="20%">Total Vehicle</th>
-            </tr>
-        </thead>
-        <!--
-            #3: This holds the list of Sales - we will add rows
-            dynamically
-            using jQuery
-        -->
-        <tbody id="contentRows"></tbody>
-    </table>
+<div id="searchResultDiv" class="row" style="display:none">
+    <div class="col-sm-10">
+        <table id="searchTable" class="table table-hover table-bordered table-condensed table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th width="30%">User</th>
+                    <th width="25%">Total Sales</th>
+                    <th width="20%">Total Vehicle</th>
+                </tr>
+            </thead>
+            <!--
+                #3: This holds the list of Sales - we will add rows
+                dynamically
+                using jQuery
+            -->
+            <tbody id="contentRows"></tbody>
+        </table>
+    </div>
 </div>
 
-<div id="noResultDiv" class="row col-sm-8" style="display:none">
+<div id="noResultDiv" class="row" style="display:none">
     <h4>No result found!!</h4>
 </div>
 
 
 @section scripts {
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
+    <script src="~/Scripts/Reports.js"></script>
+
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.standalone.min.css" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js"></script>
 
-    <script src="~/Scripts/Reports.js"></script>
+    <script src="~/Scripts/notify.min.js"></script>
 
+    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.10/css/jquery.dataTables.min.css">
+    <script type="text/javascript" language="javascript" src="//cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
 }
